@@ -14,6 +14,7 @@
 .formbox{
 	width: 380px;
 	height: 540px;
+	border-radius: 40px;
 	position: relative;
 	margin: 6% auto;
 	background: white;
