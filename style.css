@@ -204,40 +204,55 @@ button:focus{
 
 
 .container-2 {
-    background-color: #1acff8;
-    height: 500px;
+    margin-top: 10px;
+    background-color: #F2AA4CFF;
+    height: 620px;
     font-size: 17px;
 }
 
 .heading {
-    color: white;
+    color: #422057FF;
     font-size:50px;
     margin-left: 520px;
 }
 .fbutton{
-    background-color: red;
-    padding: 15px;
-    border-radius: 5%;
+    background-color:#fff;
+    padding: 13px;
+    border-radius: 40px;
     border: none;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
     cursor: pointer;
     margin-left: 620px;
-    color: white;
+    color: #422057FF;
+    transition: 0.3s ease-in-out;
+}
+.fbutton:hover
+{
+    color:#fff;
+    background-color: #422057FF;
 }
 .flex {
     display: flex;
     margin-top: 50px;
     align-items: center;
-    margin-left: 200px;
+    margin-left: 180px;
+}
+.box-1 img{
+    margin-top: -30px;
+}
+.box-1 h2
+{
+   
+    margin-top: -12px;
 }
 .box-1,.box-2,.box-3{
     background: white;
-    color: #323232;
-    width: 250px;
-    height: 370px;
+    color: #422057FF;
+    width: 300px;
+    height: 510px;
     line-height: 30px;
     margin: 15px;
     padding: 30px;
