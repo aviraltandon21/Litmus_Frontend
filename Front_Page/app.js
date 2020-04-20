@@ -1,3 +1,4 @@
+
     // jshint esversion:6   
        
 
@@ -36,4 +37,5 @@
  function topFunction() {
    document.body.scrollTop = 0; // this is for mac users
    document.documentElement.scrollTop = 0; // this is for windows user
+
  }
