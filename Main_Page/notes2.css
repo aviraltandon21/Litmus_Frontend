@@ -2,7 +2,11 @@
 body {
   margin: 0;
   padding: 0;
-  background: #91D1D3;
+  background:#F2AA4CFF;
+  color:#422057FF;
+}
+button{
+  outline: none;
 }
 .paper {
   position: relative;
@@ -25,9 +29,9 @@ body {
   bottom: 0;
   left: 0;
   width: 60px;
-  background: radial-gradient(#575450 6px, transparent 7px) repeat-y;
+  background: radial-gradient(#F2AA4CFF 6px, transparent 7px) repeat-y;
   background-size: 30px 30px;
-  border-right: 3px solid #D44147;
+  border-right: 3px solid #422057FF;
   box-sizing: border-box;
 }
 .paper-content {
@@ -36,7 +40,7 @@ body {
   right: 0;
   bottom: 30px;
   left: 60px;
-  background: linear-gradient(transparent, transparent 28px, #91D1D3 28px);
+  background: linear-gradient(transparent, transparent 28px, #F2AA4CFF 28px);
   background-size: 30px 30px;
 }
 .paper-content textarea {
@@ -49,9 +53,7 @@ body {
   border: 0;
   outline: 0;
   background: transparent;
-  color: mediumblue;
   font-family: monospace;
-  font-weight: bold;
   font-size: 23px;
   box-sizing: border-box;
 }
@@ -73,6 +75,7 @@ body {
   position: relative;
   left: 420px;
   bottom: 510px;
+  color:#422057FF;
 }
 #button {
   cursor:pointer;
@@ -80,24 +83,20 @@ body {
   height:40px;
   padding-left:24px;
   padding-right:24px;
-  font-family: sans-serif;
-  font-weight:bold;
   font-size:20px;
   color:#FFF;
-  text-shadow: 0px -1px 0px #000000;
   position: relative;
   bottom: 10em;
   top: 0px;
   left: 800px;
-  border-radius:8px;
-  border-top:1px solid #FFF;
-  box-shadow: 0px 2px 14px #000;
-  background-color: #62add6;
+  background-color:#422057FF;
+  border-radius: 620px;
+  outline: none;
+  border: none;
 }
-#button:active {
-  zoom: 1;
-  filter: alpha(opacity=80);
-  opacity: 0.8;
+#button:hover {
+  color:#422057FF;
+  background-color: white;
 }
 /* Treding Post */
 #trending-post {
@@ -131,10 +130,10 @@ body {
   margin-left: 40px;
   margin-top: 80px;
   text-align: left;
-  color: grey;
+  color: #323232;
   font-size: 18px;
 }
-button {
+#trending-post button {
   margin-top:233px;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
@@ -164,7 +163,7 @@ a {
   font-family: "comic neue";
   color: black;
 }
-button:hover, a:hover {
+#trending-post button:hover, a:hover {
   background-color: purple;
 }
 .profile-image {
@@ -183,4 +182,62 @@ button:hover, a:hover {
   margin-left: 100px;
   font-family: "comic Neue";
   font-size:25px;
+}
+
+/* friend-request */
+#friend-post{
+  position: absolute;;
+  margin: -1150px -1500px 0px 1100px;
+  overflow: hidden;
+}
+.friend{
+  color:whitesmoke;
+  background-color: rgba(49, 29, 63, 0.979);
+  /* rgb(49, 97, 143); */
+  border-radius: 30px;
+  margin: 10px;
+}
+.border{
+  display: flex;
+  justify-content: space-around;
+}
+.friend-post{
+  border-top: 1.5px solid #F2AA4CFF;
+  padding: 15px;
+}
+.friend-name{
+  border-left: 2px solid #F2AA4CFF;
+  width: 220px;
+  margin-left: 10px;
+  padding-left: 20px;
+}
+.friend img{
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  margin-top: 15px;
+  margin-left: 15px;
+  border: 3px solid #F2AA4CFF;
+  border-radius: 100%;
+}
+
+#friend-post button{
+  padding: 10px;
+  border-radius: 600px;
+  font-size: 20px;
+  color: #422057FF;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  margin-left: 100px;
+}
+#friend-post button:hover{
+  background-color: rgba(66, 32, 87, 0.678);
+  color: white;
+}
+#friend-post h1{
+  margin-left: 90px;
+}
+.far{
+  font-size: 30px;
 }
