@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   padding: 0;
@@ -119,8 +118,8 @@ body {
   margin: auto;
   height: 400px;
   font-family: arial;
-  background-image: url(back2.png);
-  /*besides this we have two more pallets
+  background-image: url(back4.png);
+  /*besides this we have three more pallets
   have a look at them */
   background-repeat: no-repeat;
 }
@@ -183,4 +182,61 @@ button:hover, a:hover {
   margin-left: 100px;
   font-family: "comic Neue";
   font-size:25px;
+  color: white;
+}
+#friend-post{
+  position: absolute;;
+  margin: -1150px -1500px 0px 1100px;
+  overflow: hidden;
+}
+.friend{
+  color:whitesmoke;
+  background-color: rgba(49, 29, 63, 0.979);
+  /* rgb(49, 97, 143); */
+  border-radius: 30px;
+  margin: 10px;
+}
+.border{
+  display: flex;
+  justify-content: space-around;
+}
+.friend-post{
+  border-top: 1.5px solid #F2AA4CFF;
+  padding: 15px;
+}
+.friend-name{
+  border-left: 2px solid #F2AA4CFF;
+  width: 220px;
+  margin-left: 10px;
+  padding-left: 20px;
+}
+.friend img{
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  margin-top: 15px;
+  margin-left: 15px;
+  border: 3px solid #F2AA4CFF;
+  border-radius: 100%;
+}
+
+#friend-post button{
+  padding: 10px;
+  border-radius: 600px;
+  font-size: 20px;
+  color: #422057FF;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  margin-left: 100px;
+}
+#friend-post button:hover{
+  background-color: rgba(66, 32, 87, 0.678);
+  color: white;
+}
+#friend-post h1{
+  margin-left: 90px;
+}
+.far{
+  font-size: 30px;
 }
