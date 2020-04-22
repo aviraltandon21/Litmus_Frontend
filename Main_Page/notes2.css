@@ -10,6 +10,7 @@ body {
   background:#F2AA4CFF;
   color:#422057FF;
 }
+
 button{
   outline: none;
 }
@@ -18,7 +19,7 @@ button{
   right: 100px;
   top: 4em;
   width: 50%;
-  max-width: 700px;
+  max-width: 600px;
   min-width: 400px;
   height: 480px;
   margin: 40px auto;
@@ -26,6 +27,9 @@ button{
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,.3);
   overflow: hidden;
+}
+textarea{
+  resize: none;
 }
 .paper:before {
   content: '';
@@ -38,6 +42,7 @@ button{
   background-size: 30px 30px;
   border-right: 3px solid #422057FF;
   box-sizing: border-box;
+
 }
 .paper-content {
   position: absolute;
@@ -78,7 +83,7 @@ button{
 }
 #margin {
   position: relative;
-  left: 420px;
+  margin-left:420px;
   bottom: 510px;
   color:#422057FF;
 }
@@ -117,7 +122,7 @@ button{
   margin-left: 130px;
 }
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(49, 29, 63, 0.979);
   max-width: 500px;
   border-radius: 30px;
   margin: auto;
@@ -203,7 +208,7 @@ a {
 /* friend-request */
 #friend-post{
   position: absolute;;
-  margin: -1150px -1500px 0px 1100px;
+  margin: -1100px -1500px 0px 1000px;
   overflow: hidden;
 }
 .friend{
