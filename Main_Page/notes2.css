@@ -1,7 +1,17 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
-  background: #91D1D3;
+  background:#F2AA4CFF;
+  color:#422057FF;
+}
+button{
+  outline: none;
 }
 .paper {
   position: relative;
@@ -24,9 +34,9 @@ body {
   bottom: 0;
   left: 0;
   width: 60px;
-  background: radial-gradient(#575450 6px, transparent 7px) repeat-y;
+  background: radial-gradient(#F2AA4CFF 6px, transparent 7px) repeat-y;
   background-size: 30px 30px;
-  border-right: 3px solid #D44147;
+  border-right: 3px solid #422057FF;
   box-sizing: border-box;
 }
 .paper-content {
@@ -35,7 +45,7 @@ body {
   right: 0;
   bottom: 30px;
   left: 60px;
-  background: linear-gradient(transparent, transparent 28px, #91D1D3 28px);
+  background: linear-gradient(transparent, transparent 28px, #F2AA4CFF 28px);
   background-size: 30px 30px;
 }
 .paper-content textarea {
@@ -48,9 +58,7 @@ body {
   border: 0;
   outline: 0;
   background: transparent;
-  color: mediumblue;
   font-family: monospace;
-  font-weight: bold;
   font-size: 23px;
   box-sizing: border-box;
 }
@@ -72,6 +80,7 @@ body {
   position: relative;
   left: 420px;
   bottom: 510px;
+  color:#422057FF;
 }
 #button {
   cursor:pointer;
@@ -79,26 +88,22 @@ body {
   height:40px;
   padding-left:24px;
   padding-right:24px;
-  font-family: sans-serif;
-  font-weight:bold;
   font-size:20px;
   color:#FFF;
-  text-shadow: 0px -1px 0px #000000;
   position: relative;
   bottom: 10em;
   top: 0px;
   left: 800px;
-  border-radius:8px;
-  border-top:1px solid #FFF;
-  box-shadow: 0px 2px 14px #000;
-  background-color: #62add6;
+  background-color:#422057FF;
+  border-radius: 620px;
+  outline: none;
+  border: none;
 }
-#button:active {
-  zoom: 1;
-  filter: alpha(opacity=80);
-  opacity: 0.8;
+#button:hover {
+  color:#422057FF;
+  background-color: white;
 }
-/* Treding Post */
+/* Trending Post */
 #trending-post {
   display: inline-block;
   margin-left: 300px;
@@ -128,45 +133,51 @@ body {
   font-family: "comic Neue";
   display: inline;
   margin-left: 40px;
-  margin-top: 80px;
+  margin-top: -50px;
   text-align: left;
   color: grey;
   font-size: 18px;
 }
-button {
-  margin-top:233px;
+#trending-post button {
+  
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
   border: none;
   outline: 0;
+  margin-top: -6px;
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: #422057FF;
   text-align: center;
   cursor: pointer;
   width: 100%;
   font-size: 18px;
 }
 .post-image {
-  position: absolute;
-  margin: 50px;
+  position: relative;
+  margin-top: 37px;
   margin-left: 50px;
+  
+  
   width: 400px;
   height: 200px;
-  border: 2px solid;
-  margin-top: 170px;
-}
+  
+  }
 a {
   text-decoration: none;
   font-size: 22px;
   font-family: "comic neue";
   color: black;
 }
-button:hover, a:hover {
-  background-color: purple;
+#trending-post button:hover, a:hover {
+  background-color: white;
+  color:#422057FF;
+
 }
 .profile-image {
+  position: relative;
+  float: right;
   border-radius: 50%;
   border: 5px solid;
   border-color: white;
@@ -175,15 +186,21 @@ button:hover, a:hover {
   margin-right:20px;
   margin-top:30px;
 }
-.name {
+.usr-name
+{
   position: absolute;
-  display:inline;
-  margin-top: 40px;
-  margin-left: 100px;
-  font-family: "comic Neue";
+  display: inline;
+  color: #fff;
   font-size:25px;
-  color: white;
+  font-family: "comic Neue";
+  margin-top: -100px;
+  margin-left: 100px;
+  
+  
+  
+
 }
+/* friend-request */
 #friend-post{
   position: absolute;;
   margin: -1150px -1500px 0px 1100px;
@@ -239,4 +256,75 @@ button:hover, a:hover {
 }
 .far{
   font-size: 30px;
+}
+
+/* req */
+
+.friend-request{
+  position: absolute;
+  margin-left: 10px;
+  border: #FFF 1px solid;
+  border-radius: 10px;
+}
+
+.req-ico{
+  cursor: pointer;
+}
+
+.friend-request:hover{
+  background-color: #fff;
+}
+
+#req-btn{
+  padding: 2px;
+  background: 0;
+  border: none;
+}
+
+#friend-req-area{
+  display: none;
+}
+
+.friend-request-card{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-top: 40px;
+  background-color: #FFF;
+  padding: 15px;
+  width: 280px;
+  border-radius: 10px;
+}
+
+#req-img{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  
+}
+
+#req-name{
+  font-size: 16px;
+  padding: 0 10px 0 10px;
+}
+
+#req-ins{
+  font-size: 12px;
+  padding: 0 10px 0 10px;
+}
+
+#accept{
+  background: 0;
+  border: 0;
+}
+
+#reject{
+  background: 0;
+  border: 0
+}
+
+.acc-rej:hover{
+  border-radius: 50%;
+  background:#F2AA4CFF;
 }
