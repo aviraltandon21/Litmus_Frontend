@@ -103,7 +103,7 @@ button{
   color:#422057FF;
   background-color: white;
 }
-/* Treding Post */
+/* Trending Post */
 #trending-post {
   display: inline-block;
   margin-left: 300px;
@@ -133,35 +133,37 @@ button{
   font-family: "comic Neue";
   display: inline;
   margin-left: 40px;
-  margin-top: 80px;
+  margin-top: -50px;
   text-align: left;
   color: grey;
   font-size: 18px;
 }
 #trending-post button {
-  margin-top:233px;
+  
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
   border: none;
   outline: 0;
+  margin-top: -6px;
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: #422057FF;
   text-align: center;
   cursor: pointer;
   width: 100%;
   font-size: 18px;
 }
 .post-image {
-  position: absolute;
-  margin: 50px;
+  position: relative;
+  margin-top: 37px;
   margin-left: 50px;
+  
+  
   width: 400px;
   height: 200px;
-  border: 2px solid;
-  margin-top: 170px;
-}
+  
+  }
 a {
   text-decoration: none;
   font-size: 22px;
@@ -169,9 +171,13 @@ a {
   color: black;
 }
 #trending-post button:hover, a:hover {
-  background-color: purple;
+  background-color: white;
+  color:#422057FF;
+
 }
 .profile-image {
+  position: relative;
+  float: right;
   border-radius: 50%;
   border: 5px solid;
   border-color: white;
@@ -179,6 +185,20 @@ a {
   width: 25%;
   margin-right:20px;
   margin-top:30px;
+}
+.usr-name
+{
+  position: absolute;
+  display: inline;
+  color: #fff;
+  font-size:25px;
+  font-family: "comic Neue";
+  margin-top: -100px;
+  margin-left: 100px;
+  
+  
+  
+
 }
 /* friend-request */
 #friend-post{
