@@ -1,17 +1,16 @@
-
- 
-
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
+textarea{
+  resize: none;
+}
 body {
   margin: 0;
   padding: 0;
   background:#F2AA4CFF;
-  color:#422057FF;
+  color:rgb(38, 9, 56);
   font-family: "comic neue";
 }
 button{
@@ -19,7 +18,7 @@ button{
 }
 .paper {
   position: relative;
-  right: 100px;
+  right: 40px;
   top: 4em;
   width: 50%;
   max-width: 600px;
@@ -40,7 +39,7 @@ button{
   width: 60px;
   background: radial-gradient(#F2AA4CFF 6px, transparent 7px) repeat-y;
   background-size: 30px 30px;
-  border-right: 3px solid #422057FF;
+  border-right: 3px solid rgb(38, 9, 56);
   box-sizing: border-box;
 }
 .paper-content {
@@ -88,11 +87,11 @@ button{
   margin-left: 420px;
   
 
-  color:#422057FF;
+  color:rgb(38, 9, 56);
 }
 #button-create{
   cursor:pointer;
-  margin-top:40px;
+  margin-top:50px;
   height:40px;
   padding-left:24px;
   padding-right:24px;
@@ -101,15 +100,15 @@ button{
   position: relative;
   bottom: 10em;
   top: 0px;
-  margin-left: 765px;
-  background-color:#422057FF;
+  margin-left: 830px;
+  background-color:rgb(38, 9, 56);
   border-radius: 620px;
   outline: none;
   border: none;
 }
 #button-create:hover {
-  color:#422057FF;
-  background-color: white;
+  color:rgb(38, 9, 56);
+  background-color: rgba(235, 222, 222, 0.911);
 }
 #remain {
   font-size: 20px;
@@ -120,14 +119,14 @@ button{
   font-family: cursive;
 }
 #message {
-  right: 280px;
-  bottom: 50px;
+  right: 250px;
+  bottom: 30px;
   text-align: center;
   position: relative;
 
 }
 /* Trending Post */
-#useful-notes
+/* #useful-notes
 {
   cursor:pointer;
   display: inline;
@@ -141,16 +140,50 @@ button{
   bottom: 10em;
   top: 0px;
   margin-left: 20px;
-  background-color:#422057FF;
+  background-color:rgb(38, 9, 56);
   border-radius: 620px;
   outline: none;
   border: none;
   
 }
 #useful-notes:hover{
-color:#422057FF;
+color:rgb(38, 9, 56);
 background-color: white;
+} */
+
+.trending-post-container
+{
+  height: 400px;
+  width: 1000px;
+  margin-left: 420px;
+
 }
+.slide-button
+{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: -350px;
+  height: 50px;
+  width: 50px;
+  
+  background-color:  rgb(38, 9, 56);
+  color: #FFF;
+}
+.slide-button1
+{
+  position: absolute;
+  margin-top: 200px;
+
+  height: 50px;
+  width: 50px;
+  margin-left: 800px;
+
+  
+  background-color:  rgb(38, 9, 56);
+  color: #FFF;
+}
+
+
 .trending-post-button
 {
   display: inline;
@@ -164,9 +197,9 @@ background-color: white;
 .trend-head {
   text-align: center;
   font-size: 50px;
-  color:#422057FF;
+  color:rgb(38, 9, 56);
   font-family: "comic Neue";
-  margin-top: 170px;
+  margin-top: 130px;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(49, 29, 63, 0.979);
@@ -175,7 +208,7 @@ background-color: white;
   margin-left: 130px;
   height: 400px;
   font-family: arial;
-  background-color: #422057FF;
+  background-color: rgb(38, 9, 56);
 
 }
 .card1 {
@@ -186,7 +219,7 @@ background-color: white;
   
   height: 400px;
   font-family: arial;
-  background-color: #422057FF;
+  background-color: rgb(38, 9, 56);
 
 }
 .card2 {
@@ -196,7 +229,7 @@ background-color: white;
   
   height: 400px;
   font-family: arial;
-  background-color: #422057FF;
+  background-color: rgb(38, 9, 56);
  
   
 }
@@ -211,7 +244,7 @@ background-color: white;
   color: grey;
   font-size: 18px;
 }
-#trending-post button {
+#post-button{
   
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
@@ -220,9 +253,9 @@ background-color: white;
   margin-top: -6px;
   display: inline-block;
   padding: 8px;
-  color:#422057FF;
-  background-color:#F2AA4CFF;
-  border: 1px solid;
+  color:rgb(38, 9, 56);
+  background-color:rgba(235, 222, 222, 0.993);
+  /* border: 1px solid; */
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -238,14 +271,14 @@ background-color: white;
   height: 200px;
   
   }
-a {
+#trending-post a {
   text-decoration: none;
   font-size: 22px;
   font-family: "comic neue";
   color: black;
 }
-#trending-post button:hover, a:hover {
-  background-color: #422057FF;
+#post-button:hover {
+  background-color: rgb(114, 101, 122);
   color:white;
 
 }
@@ -297,12 +330,12 @@ a {
 /* friend-request */
 #friend-post{
   position: absolute;;
-  margin: -1280px -1500px 0px 1000px;
+  margin: -1260px -1500px 0px 1000px;
   overflow: hidden;
 }
 .friend{
   color:whitesmoke;
-  background-color: #422057FF;
+  background-color: rgb(38, 9, 56);
   /* rgb(49, 97, 143); */
   border-radius: 30px;
   margin: 10px;
@@ -335,7 +368,7 @@ a {
   padding: 10px;
   border-radius: 600px;
   font-size: 20px;
-  color: #422057FF;
+  color: rgb(38, 9, 56);
   cursor: pointer;
   background-color: white;
   border: none;
@@ -350,6 +383,14 @@ a {
 }
 .far{
   font-size: 30px;
+}
+.far:hover,.full-post:hover{
+  color: #F2AA4CFF;
+}
+.full-post{
+  color: white;
+  text-decoration:none;
+  margin-left: 140px;
 }
 
 /* req */
