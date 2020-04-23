@@ -329,7 +329,8 @@ background-color: white;
 }
 /* friend-request */
 #friend-post{
-  position: relative;
+	right: 100px;      /*added*/
+  position: absolute;   /*changed to relative*/
   margin: -1260px 0px 0px 1000px;
   overflow: hidden;
 }
