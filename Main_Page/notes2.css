@@ -1,6 +1,3 @@
-
- 
-
 *{
   padding: 0;
   margin: 0;
@@ -12,8 +9,8 @@ body {
   padding: 0;
   background:#F2AA4CFF;
   color:#422057FF;
-  font-family: "comic neue";
 }
+
 button{
   outline: none;
 }
@@ -31,6 +28,9 @@ button{
   box-shadow: 0 2px 8px rgba(0,0,0,.3);
   overflow: hidden;
 }
+textarea{
+  resize: none;
+}
 .paper:before {
   content: '';
   position: absolute;
@@ -42,6 +42,7 @@ button{
   background-size: 30px 30px;
   border-right: 3px solid #422057FF;
   box-sizing: border-box;
+
 }
 .paper-content {
   position: absolute;
@@ -81,18 +82,14 @@ button{
   border-radius: 10px;
 }
 #margin {
-  
-  display: inline;
-  position: absolute;
-  padding-top: 10px;
-  margin-left: 420px;
-  
-
+  position: relative;
+  margin-left:420px;
+  bottom: 510px;
   color:#422057FF;
 }
-#button-create{
+#button {
   cursor:pointer;
-  margin-top:40px;
+  margin-top:20px;
   height:40px;
   padding-left:24px;
   padding-right:24px;
@@ -101,98 +98,65 @@ button{
   position: relative;
   bottom: 10em;
   top: 0px;
-  margin-left: 765px;
+  left: 800px;
   background-color:#422057FF;
   border-radius: 620px;
   outline: none;
   border: none;
 }
-#button-create:hover {
+#button:hover {
   color:#422057FF;
   background-color: white;
 }
+#remain {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+#complete{
+  font-size: 16px;
+  font-family: cursive;
+}
+#message {
+  right: 280px;
+  bottom: 50px;
+  text-align: center;
+  position: relative;
+
+}
+
+
 /* Trending Post */
-#useful-notes
-{
-  cursor:pointer;
-  display: inline;
-  margin-top: 100px;
-  height:40px;
-  padding-left:24px;
-  padding-right:24px;
-  font-size:20px;
-  color:#FFF;
-  position: absolute;
-  bottom: 10em;
-  top: 0px;
-  margin-left: 20px;
-  background-color:#422057FF;
-  border-radius: 620px;
-  outline: none;
-  border: none;
-  
-}
-#useful-notes:hover{
-color:#422057FF;
-background-color: white;
-}
-.trending-post-button
-{
-  display: inline;
-}
 #trending-post {
   display: inline-block;
+  margin-left: 300px;
   margin-top: 50px;
-  
-  
 }
 .trend-head {
-  text-align: center;
-  font-size: 50px;
-  color:#422057FF;
+  display: inline;
+  font-size: 40px;
+  color: white;
   font-family: "comic Neue";
-  margin-top: 170px;
+  margin-left: 130px;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(49, 29, 63, 0.979);
   max-width: 500px;
   border-radius: 30px;
-  margin-left: 130px;
+  margin: auto;
   height: 400px;
   font-family: arial;
-  background-color: #422057FF;
-
-}
-.card1 {
-  box-shadow: 0 4px 8px 0 rgba(49, 29, 63, 0.979);
-  max-width: 500px;
-  border-radius: 30px;
-  margin-left: 100px;
-  
-  height: 400px;
-  font-family: arial;
-  background-color: #422057FF;
-
-}
-.card2 {
-  box-shadow: 0 4px 8px 0 rgba(49, 29, 63, 0.979);
-  max-width: 500px;
-  border-radius: 30px;
-  
-  height: 400px;
-  font-family: arial;
-  background-color: #422057FF;
- 
-  
+  background-image: url(back4.png);
+  /*besides this we have three more pallets
+  have a look at them */
+  background-repeat: no-repeat;
 }
 .detail {
-
+  position: absolute;
   font-family: "comic Neue";
   display: inline;
-
   margin-left: 40px;
-
-  
+  margin-top: -50px;
+  text-align: left;
   color: grey;
   font-size: 18px;
 }
@@ -205,9 +169,8 @@ background-color: white;
   margin-top: -6px;
   display: inline-block;
   padding: 8px;
-  color:#422057FF;
-  background-color:#F2AA4CFF;
-  border: 1px solid;
+  color: white;
+  background-color: #422057FF;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -215,7 +178,7 @@ background-color: white;
 }
 .post-image {
   position: relative;
-  margin-top: 27px;
+  margin-top: 37px;
   margin-left: 50px;
   
   
@@ -230,64 +193,44 @@ a {
   color: black;
 }
 #trending-post button:hover, a:hover {
-  background-color: #422057FF;
-  color:white;
-
-}
-.prof
-{
-  
-  
-  border: 4px solid;
-  border-color: #F2AA4CFF;
-  height: 150px;
-  width: 150px;
-  float: right;
-  border-top-right-radius: 30px;
-  border-top: none;
-  border-right: none;
-
-
-}
-.data
-{
-  height: 150px;
-  width: 354px;
-  border: 4px solid;
-  border-top: none;
-  border-left: none;
-  border-color: #F2AA4CFF;
+  background-color: white;
+  color:#422057FF;
 
 }
 .profile-image {
   position: relative;
   float: right;
   border-radius: 50%;
-  border: 4px solid;
-  border-color: #F2AA4CFF;
-  height: 70%;
-  width: 70%;
-  margin:20px;
-  margin-left: 25px;
-  
+  border: 5px solid;
+  border-color: white;
+  height: 25%;
+  width: 25%;
+  margin-right:20px;
+  margin-top:30px;
 }
-
 .usr-name
 {
+  position: absolute;
+  display: inline;
   color: #fff;
-  font-size:30px;
+  font-size:25px;
   font-family: "comic Neue";
-   text-align: center;
+  margin-top: -100px;
+  margin-left: 100px;
+  
+  
+  
+
 }
 /* friend-request */
 #friend-post{
   position: absolute;;
-  margin: -1280px -1500px 0px 1000px;
+  margin: -1100px -1500px 0px 1000px;
   overflow: hidden;
 }
 .friend{
   color:whitesmoke;
-  background-color: #422057FF;
+  background-color: rgba(49, 29, 63, 0.979);
   /* rgb(49, 97, 143); */
   border-radius: 30px;
   margin: 10px;
@@ -341,11 +284,9 @@ a {
 
 .friend-request{
   position: absolute;
-  margin-left: 40px;
-  margin-top: 120px;
-  background-color: #422057FF;
-
-  border-radius: 20px;
+  margin-left: 10px;
+  border: #FFF 1px solid;
+  border-radius: 10px;
 }
 
 .req-ico{
@@ -357,68 +298,53 @@ a {
 }
 
 #req-btn{
-  cursor:pointer;
-  display: inline;
-  height:40px;
-  width: 190px;
-  padding-left:24px;
-  padding-right:24px;
-  font-size:20px;
-  color:#FFF;
-  position: absolute;
-  bottom: 10em;
-  top: 0px;
-  margin-left: -20px;
-  background-color:#422057FF;
-  border-radius: 620px;
-  outline: none;
+  padding: 2px;
+  background: 0;
   border: none;
-}
-#req-btn:hover
-{
-  background-color:white;
-  color:#422057FF;
 }
 
 #friend-req-area{
   display: none;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 40px;
+  z-index: 10;
+
 }
 
 .friend-request-card{
-  position: absolute;
   display: flex;
   justify-content: space-between;
-  margin-left: 10px;
-  margin-top: 40px;
   background-color: #FFF;
   padding: 15px;
+  margin-top: 4px;
   width: 280px;
   border-radius: 10px;
 }
 
-#req-img{
+.req-img{
   width: 40px;
   height: 40px;
   border-radius: 20px;
   
 }
 
-#req-name{
+.req-name{
   font-size: 16px;
   padding: 0 10px 0 10px;
 }
 
-#req-ins{
+.req-ins{
   font-size: 12px;
   padding: 0 10px 0 10px;
 }
 
-#accept{
+.accept{
   background: 0;
   border: 0;
 }
 
-#reject{
+.reject{
   background: 0;
   border: 0
 }
