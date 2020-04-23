@@ -108,6 +108,23 @@ textarea{
   color:#422057FF;
   background-color: white;
 }
+#remain {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+#complete{
+  font-size: 16px;
+  font-family: cursive;
+}
+#message {
+  right: 280px;
+  bottom: 50px;
+  text-align: center;
+  position: relative;
+
+}
+
+
 /* Trending Post */
 #trending-post {
   display: inline-block;

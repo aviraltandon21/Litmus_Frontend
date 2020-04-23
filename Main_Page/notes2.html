@@ -26,14 +26,19 @@
          
       </div>
       <section id="post-box">
+         <form novalidate onsubmit="return limiter.save();">
          <div class="paper">
             <div class="paper-content">
-               <textarea placeholder="Pour in your thoughts !"autofocus></textarea>
+               <textarea id="textin" placeholder="Pour in your thoughts !"autofocus></textarea>
             </div>
          </div>
          <div id="margin"><span style="font-weight: bold; font-size: 25px;">Title:</span> <input id="title" type="text" name="title"></div>
          <input id="button" type="submit" value="Create">
+         <div id="message">
+        <span id="remain">0</span><span id="complete">   characters remaining</span> 
+      </div>
       </section>
+   </form>
       <section id="trending-post">
          <h1 class="trend-head">Trending Post</h1>
          <div class="card">
@@ -104,4 +109,5 @@
          }
 
       </script>
+      <script src="notes2.js"></script>
    </body>
