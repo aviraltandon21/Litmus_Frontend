@@ -10,7 +10,7 @@ body {
   margin: 0;
   padding: 0;
   background:#F2AA4CFF;
-  color:#422057FF;
+  color:rgb(38, 9, 56);
   font-family: "comic neue";
 }
 button{
@@ -39,7 +39,7 @@ button{
   width: 60px;
   background: radial-gradient(#F2AA4CFF 6px, transparent 7px) repeat-y;
   background-size: 30px 30px;
-  border-right: 3px solid #422057FF;
+  border-right: 3px solid rgb(38, 9, 56);
   box-sizing: border-box;
 }
 .paper-content {
@@ -87,7 +87,7 @@ button{
   margin-left: 420px;
   
 
-  color:#422057FF;
+  color:rgb(38, 9, 56);
 }
 #button-create{
   cursor:pointer;
@@ -101,13 +101,13 @@ button{
   bottom: 10em;
   top: 0px;
   margin-left: 830px;
-  background-color:#422057FF;
+  background-color:rgb(38, 9, 56);
   border-radius: 620px;
   outline: none;
   border: none;
 }
 #button-create:hover {
-  color:#422057FF;
+  color:rgb(38, 9, 56);
   background-color: rgba(235, 222, 222, 0.911);
 }
 #remain {
@@ -140,14 +140,14 @@ button{
   bottom: 10em;
   top: 0px;
   margin-left: 20px;
-  background-color:#422057FF;
+  background-color:rgb(38, 9, 56);
   border-radius: 620px;
   outline: none;
   border: none;
   
 }
 #useful-notes:hover{
-color:#422057FF;
+color:rgb(38, 9, 56);
 background-color: white;
 }
 .trending-post-button
@@ -163,7 +163,7 @@ background-color: white;
 .trend-head {
   text-align: center;
   font-size: 50px;
-  color:#422057FF;
+  color:rgb(38, 9, 56);
   font-family: "comic Neue";
   margin-top: 170px;
 }
@@ -174,7 +174,7 @@ background-color: white;
   margin-left: 130px;
   height: 400px;
   font-family: arial;
-  background-color: #422057FF;
+  background-color: rgb(38, 9, 56);
 
 }
 .card1 {
@@ -185,7 +185,7 @@ background-color: white;
   
   height: 400px;
   font-family: arial;
-  background-color: #422057FF;
+  background-color: rgb(38, 9, 56);
 
 }
 .card2 {
@@ -195,7 +195,7 @@ background-color: white;
   
   height: 400px;
   font-family: arial;
-  background-color: #422057FF;
+  background-color: rgb(38, 9, 56);
  
   
 }
@@ -219,7 +219,7 @@ background-color: white;
   margin-top: -6px;
   display: inline-block;
   padding: 8px;
-  color:#422057FF;
+  color:rgb(38, 9, 56);
   background-color:rgba(235, 222, 222, 0.993);
   /* border: 1px solid; */
   text-align: center;
@@ -301,7 +301,7 @@ background-color: white;
 }
 .friend{
   color:whitesmoke;
-  background-color: #422057FF;
+  background-color: rgb(38, 9, 56);
   /* rgb(49, 97, 143); */
   border-radius: 30px;
   margin: 10px;
@@ -334,7 +334,7 @@ background-color: white;
   padding: 10px;
   border-radius: 600px;
   font-size: 20px;
-  color: #422057FF;
+  color: rgb(38, 9, 56);
   cursor: pointer;
   background-color: white;
   border: none;
