@@ -305,43 +305,46 @@ a {
 
 #friend-req-area{
   display: none;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 40px;
+  z-index: 10;
+
 }
 
 .friend-request-card{
-  position: absolute;
   display: flex;
   justify-content: space-between;
-  margin-left: 10px;
-  margin-top: 40px;
   background-color: #FFF;
   padding: 15px;
+  margin-top: 4px;
   width: 280px;
   border-radius: 10px;
 }
 
-#req-img{
+.req-img{
   width: 40px;
   height: 40px;
   border-radius: 20px;
   
 }
 
-#req-name{
+.req-name{
   font-size: 16px;
   padding: 0 10px 0 10px;
 }
 
-#req-ins{
+.req-ins{
   font-size: 12px;
   padding: 0 10px 0 10px;
 }
 
-#accept{
+.accept{
   background: 0;
   border: 0;
 }
 
-#reject{
+.reject{
   background: 0;
   border: 0
 }
