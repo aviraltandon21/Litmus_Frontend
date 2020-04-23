@@ -25,3 +25,13 @@ window.onload = function(){
     document.getElementById("textin")
   );
 };
+
+const friend_request = document.getElementById("req-btn");
+const friend_request_area = document.getElementById("friend-req-area");
+friend_request.onclick = function(){
+  if(window.getComputedStyle(friend_request_area).display === "none") {
+    friend_request_area.style.display="block";
+  }else{
+    friend_request_area.style.display="none";
+  }
+}
