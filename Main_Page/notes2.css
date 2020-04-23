@@ -1,3 +1,6 @@
+
+ 
+
 *{
   padding: 0;
   margin: 0;
@@ -9,6 +12,7 @@ body {
   padding: 0;
   background:#F2AA4CFF;
   color:#422057FF;
+  font-family: "comic neue";
 }
 button{
   outline: none;
@@ -18,7 +22,7 @@ button{
   right: 100px;
   top: 4em;
   width: 50%;
-  max-width: 700px;
+  max-width: 600px;
   min-width: 400px;
   height: 480px;
   margin: 40px auto;
@@ -77,14 +81,18 @@ button{
   border-radius: 10px;
 }
 #margin {
-  position: relative;
-  left: 420px;
-  bottom: 510px;
+  
+  display: inline;
+  position: absolute;
+  padding-top: 10px;
+  margin-left: 420px;
+  
+
   color:#422057FF;
 }
-#button {
+#button-create{
   cursor:pointer;
-  margin-top:20px;
+  margin-top:40px;
   height:40px;
   padding-left:24px;
   padding-right:24px;
@@ -93,48 +101,98 @@ button{
   position: relative;
   bottom: 10em;
   top: 0px;
-  left: 800px;
+  margin-left: 765px;
   background-color:#422057FF;
   border-radius: 620px;
   outline: none;
   border: none;
 }
-#button:hover {
+#button-create:hover {
   color:#422057FF;
   background-color: white;
 }
 /* Trending Post */
+#useful-notes
+{
+  cursor:pointer;
+  display: inline;
+  margin-top: 100px;
+  height:40px;
+  padding-left:24px;
+  padding-right:24px;
+  font-size:20px;
+  color:#FFF;
+  position: absolute;
+  bottom: 10em;
+  top: 0px;
+  margin-left: 20px;
+  background-color:#422057FF;
+  border-radius: 620px;
+  outline: none;
+  border: none;
+  
+}
+#useful-notes:hover{
+color:#422057FF;
+background-color: white;
+}
+.trending-post-button
+{
+  display: inline;
+}
 #trending-post {
   display: inline-block;
-  margin-left: 300px;
   margin-top: 50px;
+  
+  
 }
 .trend-head {
-  display: inline;
-  font-size: 40px;
-  color: white;
+  text-align: center;
+  font-size: 50px;
+  color:#422057FF;
   font-family: "comic Neue";
-  margin-left: 130px;
+  margin-top: 170px;
 }
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(49, 29, 63, 0.979);
   max-width: 500px;
   border-radius: 30px;
-  margin: auto;
+  margin-left: 130px;
   height: 400px;
   font-family: arial;
-  background-image: url(back4.png);
-  /*besides this we have three more pallets
-  have a look at them */
-  background-repeat: no-repeat;
+  background-color: #422057FF;
+
+}
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(49, 29, 63, 0.979);
+  max-width: 500px;
+  border-radius: 30px;
+  margin-left: 100px;
+  
+  height: 400px;
+  font-family: arial;
+  background-color: #422057FF;
+
+}
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(49, 29, 63, 0.979);
+  max-width: 500px;
+  border-radius: 30px;
+  
+  height: 400px;
+  font-family: arial;
+  background-color: #422057FF;
+ 
+  
 }
 .detail {
-  position: absolute;
+
   font-family: "comic Neue";
   display: inline;
+
   margin-left: 40px;
-  margin-top: -50px;
-  text-align: left;
+
+  
   color: grey;
   font-size: 18px;
 }
@@ -147,8 +205,9 @@ button{
   margin-top: -6px;
   display: inline-block;
   padding: 8px;
-  color: white;
-  background-color: #422057FF;
+  color:#422057FF;
+  background-color:#F2AA4CFF;
+  border: 1px solid;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -156,7 +215,7 @@ button{
 }
 .post-image {
   position: relative;
-  margin-top: 37px;
+  margin-top: 27px;
   margin-left: 50px;
   
   
@@ -171,44 +230,64 @@ a {
   color: black;
 }
 #trending-post button:hover, a:hover {
-  background-color: white;
-  color:#422057FF;
+  background-color: #422057FF;
+  color:white;
+
+}
+.prof
+{
+  
+  
+  border: 4px solid;
+  border-color: #F2AA4CFF;
+  height: 150px;
+  width: 150px;
+  float: right;
+  border-top-right-radius: 30px;
+  border-top: none;
+  border-right: none;
+
+
+}
+.data
+{
+  height: 150px;
+  width: 354px;
+  border: 4px solid;
+  border-top: none;
+  border-left: none;
+  border-color: #F2AA4CFF;
 
 }
 .profile-image {
   position: relative;
   float: right;
   border-radius: 50%;
-  border: 5px solid;
-  border-color: white;
-  height: 25%;
-  width: 25%;
-  margin-right:20px;
-  margin-top:30px;
+  border: 4px solid;
+  border-color: #F2AA4CFF;
+  height: 70%;
+  width: 70%;
+  margin:20px;
+  margin-left: 25px;
+  
 }
+
 .usr-name
 {
-  position: absolute;
-  display: inline;
   color: #fff;
-  font-size:25px;
+  font-size:30px;
   font-family: "comic Neue";
-  margin-top: -100px;
-  margin-left: 100px;
-  
-  
-  
-
+   text-align: center;
 }
 /* friend-request */
 #friend-post{
   position: absolute;;
-  margin: -1150px -1500px 0px 1100px;
+  margin: -1280px -1500px 0px 1000px;
   overflow: hidden;
 }
 .friend{
   color:whitesmoke;
-  background-color: rgba(49, 29, 63, 0.979);
+  background-color: #422057FF;
   /* rgb(49, 97, 143); */
   border-radius: 30px;
   margin: 10px;
@@ -262,9 +341,11 @@ a {
 
 .friend-request{
   position: absolute;
-  margin-left: 10px;
-  border: #FFF 1px solid;
-  border-radius: 10px;
+  margin-left: 40px;
+  margin-top: 120px;
+  background-color: #422057FF;
+
+  border-radius: 20px;
 }
 
 .req-ico{
@@ -276,9 +357,27 @@ a {
 }
 
 #req-btn{
-  padding: 2px;
-  background: 0;
+  cursor:pointer;
+  display: inline;
+  height:40px;
+  width: 190px;
+  padding-left:24px;
+  padding-right:24px;
+  font-size:20px;
+  color:#FFF;
+  position: absolute;
+  bottom: 10em;
+  top: 0px;
+  margin-left: -20px;
+  background-color:#422057FF;
+  border-radius: 620px;
+  outline: none;
   border: none;
+}
+#req-btn:hover
+{
+  background-color:white;
+  color:#422057FF;
 }
 
 #friend-req-area{
