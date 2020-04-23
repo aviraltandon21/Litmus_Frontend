@@ -126,7 +126,7 @@ button{
 
 }
 /* Trending Post */
-#useful-notes
+/* #useful-notes
 {
   cursor:pointer;
   display: inline;
@@ -149,7 +149,41 @@ button{
 #useful-notes:hover{
 color:rgb(38, 9, 56);
 background-color: white;
+} */
+
+.trending-post-container
+{
+  height: 400px;
+  width: 1000px;
+  margin-left: 420px;
+
 }
+.slide-button
+{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: -350px;
+  height: 50px;
+  width: 50px;
+  
+  background-color:  rgb(38, 9, 56);
+  color: #FFF;
+}
+.slide-button1
+{
+  position: absolute;
+  margin-top: 200px;
+
+  height: 50px;
+  width: 50px;
+  margin-left: 800px;
+
+  
+  background-color:  rgb(38, 9, 56);
+  color: #FFF;
+}
+
+
 .trending-post-button
 {
   display: inline;
@@ -165,7 +199,7 @@ background-color: white;
   font-size: 50px;
   color:rgb(38, 9, 56);
   font-family: "comic Neue";
-  margin-top: 170px;
+  margin-top: 130px;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(49, 29, 63, 0.979);
@@ -210,7 +244,7 @@ background-color: white;
   color: grey;
   font-size: 18px;
 }
-#trending-post button {
+#post-button{
   
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
@@ -243,7 +277,7 @@ background-color: white;
   font-family: "comic neue";
   color: black;
 }
-#trending-post button:hover,#trending-post a:hover {
+#post-button:hover {
   background-color: rgb(114, 101, 122);
   color:white;
 
@@ -296,7 +330,7 @@ background-color: white;
 /* friend-request */
 #friend-post{
   position: absolute;;
-  margin: -1300px -1500px 0px 1000px;
+  margin: -1260px -1500px 0px 1000px;
   overflow: hidden;
 }
 .friend{
