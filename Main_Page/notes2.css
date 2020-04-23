@@ -111,6 +111,21 @@ button{
   color:#422057FF;
   background-color: white;
 }
+#remain {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+#complete{
+  font-size: 16px;
+  font-family: cursive;
+}
+#message {
+  right: 280px;
+  bottom: 50px;
+  text-align: center;
+  position: relative;
+
+}
 /* Trending Post */
 #useful-notes
 {
@@ -338,16 +353,12 @@ a {
 }
 
 /* req */
-
 .friend-request{
   position: absolute;
-  margin-left: 40px;
-  margin-top: 120px;
-  background-color: #422057FF;
-
-  border-radius: 20px;
+  margin-left: 10px;
+  border: #FFF 1px solid;
+  border-radius: 10px;
 }
-
 .req-ico{
   cursor: pointer;
 }
@@ -357,53 +368,39 @@ a {
 }
 
 #req-btn{
-  cursor:pointer;
-  display: inline;
-  height:40px;
-  width: 190px;
-  padding-left:24px;
-  padding-right:24px;
-  font-size:20px;
-  color:#FFF;
-  position: absolute;
-  bottom: 10em;
-  top: 0px;
-  margin-left: -20px;
-  background-color:#422057FF;
-  border-radius: 620px;
-  outline: none;
+  padding: 2px;
+  background: 0;
   border: none;
-}
-#req-btn:hover
-{
-  background-color:white;
-  color:#422057FF;
 }
 
 #friend-req-area{
   display: none;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 40px;
+  z-index: 10;
 }
 
 .friend-request-card{
-  position: absolute;
+  
   display: flex;
   justify-content: space-between;
-  margin-left: 10px;
-  margin-top: 40px;
+
   background-color: #FFF;
   padding: 15px;
+margin-top: 4px;
   width: 280px;
   border-radius: 10px;
 }
 
-#req-img{
+.req-img{
   width: 40px;
   height: 40px;
   border-radius: 20px;
   
 }
 
-#req-name{
+.req-name{
   font-size: 16px;
   padding: 0 10px 0 10px;
 }
@@ -413,12 +410,12 @@ a {
   padding: 0 10px 0 10px;
 }
 
-#accept{
+.accept{
   background: 0;
   border: 0;
 }
 
-#reject{
+.reject{
   background: 0;
   border: 0
 }
