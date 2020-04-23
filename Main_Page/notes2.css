@@ -1,12 +1,11 @@
-
- 
-
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
+textarea{
+  resize: none;
+}
 body {
   margin: 0;
   padding: 0;
@@ -19,7 +18,7 @@ button{
 }
 .paper {
   position: relative;
-  right: 100px;
+  right: 40px;
   top: 4em;
   width: 50%;
   max-width: 600px;
@@ -92,7 +91,7 @@ button{
 }
 #button-create{
   cursor:pointer;
-  margin-top:40px;
+  margin-top:50px;
   height:40px;
   padding-left:24px;
   padding-right:24px;
@@ -101,7 +100,7 @@ button{
   position: relative;
   bottom: 10em;
   top: 0px;
-  margin-left: 765px;
+  margin-left: 830px;
   background-color:#422057FF;
   border-radius: 620px;
   outline: none;
@@ -109,7 +108,7 @@ button{
 }
 #button-create:hover {
   color:#422057FF;
-  background-color: white;
+  background-color: rgba(235, 222, 222, 0.911);
 }
 #remain {
   font-size: 20px;
@@ -120,8 +119,8 @@ button{
   font-family: cursive;
 }
 #message {
-  right: 280px;
-  bottom: 50px;
+  right: 250px;
+  bottom: 30px;
   text-align: center;
   position: relative;
 
@@ -221,8 +220,8 @@ background-color: white;
   display: inline-block;
   padding: 8px;
   color:#422057FF;
-  background-color:#F2AA4CFF;
-  border: 1px solid;
+  background-color:rgba(235, 222, 222, 0.993);
+  /* border: 1px solid; */
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -238,14 +237,14 @@ background-color: white;
   height: 200px;
   
   }
-a {
+#trending-post a {
   text-decoration: none;
   font-size: 22px;
   font-family: "comic neue";
   color: black;
 }
-#trending-post button:hover, a:hover {
-  background-color: #422057FF;
+#trending-post button:hover,#trending-post a:hover {
+  background-color: rgb(114, 101, 122);
   color:white;
 
 }
@@ -297,7 +296,7 @@ a {
 /* friend-request */
 #friend-post{
   position: absolute;;
-  margin: -1280px -1500px 0px 1000px;
+  margin: -1300px -1500px 0px 1000px;
   overflow: hidden;
 }
 .friend{
@@ -350,6 +349,14 @@ a {
 }
 .far{
   font-size: 30px;
+}
+.far:hover,.full-post:hover{
+  color: #F2AA4CFF;
+}
+.full-post{
+  color: white;
+  text-decoration:none;
+  margin-left: 140px;
 }
 
 /* req */
