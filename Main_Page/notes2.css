@@ -329,15 +329,16 @@ background-color: white;
 }
 /* friend-request */
 #friend-post{
-  position: absolute;;
-  margin: -1260px -1500px 0px 1000px;
+	right: 100px;      /*added*/
+  position: absolute;   /*changed to relative*/
+  margin: -1260px 0px 0px 1000px;
   overflow: hidden;
 }
 .friend{
   color:whitesmoke;
   background-color: rgb(38, 9, 56);
   /* rgb(49, 97, 143); */
-  border-radius: 30px;
+  border-radius: 15px;
   margin: 10px;
 }
 .border{
@@ -346,20 +347,20 @@ background-color: white;
 }
 .friend-post{
   border-top: 1.5px solid #F2AA4CFF;
-  padding: 15px;
+  padding: 20px;
 }
 .friend-name{
   border-left: 2px solid #F2AA4CFF;
-  width: 220px;
-  margin-left: 10px;
+  width: 280px;
+  /* margin-left: 10px; */
   padding-left: 20px;
+  padding-bottom: -10px;
 }
 .friend img{
-  height: 50px;
-  width: 50px;
-  margin: 10px;
-  margin-top: 15px;
-  margin-left: 15px;
+  height: 35px;
+  width: 35px;
+  /* margin: 10px; */
+  margin:10px;
   border: 3px solid #F2AA4CFF;
   border-radius: 100%;
 }
@@ -390,7 +391,7 @@ background-color: white;
 .full-post{
   color: white;
   text-decoration:none;
-  margin-left: 140px;
+  margin-left: 150px;
 }
 
 /* req */
