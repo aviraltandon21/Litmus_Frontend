@@ -67,7 +67,7 @@ button{
 }
 #title {
   background-color:transparent;
-  border-bottom:3px solid #FFF;
+  border-bottom:3px solid rgb(38, 9, 56);
   border-top: none;
   border-left: none;
   border-right: none;
@@ -78,6 +78,8 @@ button{
   font-weight:bold;
   width:220px;
   border-radius: 10px;
+  outline: none;
+  padding-left:20px;
 }
 #margin {
   
