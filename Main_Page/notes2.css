@@ -144,14 +144,18 @@ button{
   width: 50px;
   
   
-
-
- color:#fff;
+ 
+  cursor: pointer;
+  color:#fff;
 
   background-color:rgb(38, 9, 56);
   border-radius: 620px;
   outline: none;
   border: none;
+}
+.slide-button:hover{
+  background-color: #FFF;
+  color: rgb(38, 9, 56);
 }
 .slide-button1
 {
@@ -162,12 +166,16 @@ button{
   width: 50px;
   margin-left: 800px;
 
-  
+  cursor: pointer;
   background-color:  rgb(38, 9, 56);
   border-radius: 50%;
   outline:none;
   border: none;
   color: #FFF;
+}
+.slide-button1:hover{
+  background-color: #FFF;
+  color: rgb(38, 9, 56);
 }
 
 
