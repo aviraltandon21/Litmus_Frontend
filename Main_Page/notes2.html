@@ -11,7 +11,7 @@
    </head>
    <body>
       <section id="main-page">
-    
+    <div>
       <div class="friend-request">
           <button id="req-btn"><i class="fas fa-2x fa-user-friends req-ico"></i></button> 
       </div>
@@ -57,14 +57,15 @@
          </div>
          
       </div>
-      <section id="post-box">
+      <section>
+         <div class="main-content">
+      <div id="post-box">
          <form novalidate onsubmit="return limiter.save();"></form>
 
-         <div id="margin"><span style="font-weight: bold; font-size: 25px;">Title:</span> <input id="title" type="text" name="title"></div>
+         <div id="margin"><span style="font-weight: bold; font-size: 25px;">Title:&emsp;</span> <input id="title" type="text" name="title" spellcheck="false"></div>
          <div class="paper">
             <div class="paper-content">
-               <textarea id="textin" placeholder="Pour in your thoughts !"autofocus></textarea>
-
+               <textarea id="textin" placeholder="Pour in your thoughts !"autofocus spellcheck="false"></textarea>
                
             </div>
          </div>
@@ -75,6 +76,57 @@
    <span id="remain">0</span><span id="complete">   characters remaining</span> 
  </div> 
 </form>
+</div>
+<div id="friend-post">
+   <h1 style="font-size: 30px;">Friend Post</h1>
+   <div class="friend1 friend" >
+      <div class="border">
+         <div class="image">
+            <img src="pro.png">
+         </div>
+         <div class="friend-name">
+            <h2>Friend Name</h2>
+         </div>
+      </div>
+      <div class="friend-post">
+         <h2>Friend Post</h2>
+         <i class="far fa-thumbs-up"></i>
+         <a href="#" class="full-post">View full post</a>
+      </div>
+   </div>
+   <div class="friend2 friend" >
+      <div class="border">
+         <div class="image">
+            <img src="pro.png">
+         </div>
+         <div class="friend-name">
+            <h2>Friend Name</h2>
+         </div>
+      </div>
+      <div class="friend-post">
+         <h2>Friend Post</h2>
+         <i class="far fa-thumbs-up"></i>
+         <a href="#" class="full-post">View full post</a>
+      </div>
+   </div>
+   <div class="friend3 friend" >
+      <div class="border">
+         <div class="image">
+            <img src="pro.png">
+         </div>
+         <div class="friend-name">
+            <h2>Friend Name</h2>
+         </div>
+      </div>
+      <div class="friend-post">
+         <h2>Friend Post</h2>
+         <i class="far fa-thumbs-up" id="fri-req"></i>
+         <a href="#" class="full-post">View full post</a>
+      </div>
+   </div>
+   <button type="submit">See All Friends</button>
+</div>
+</div>
 </section>
         <h1 class="trend-head">Trending Posts</h1> 
       <section id="trending-post"> 
@@ -108,68 +160,16 @@
          </div>
        
         
-       </div>
-
-
-       
-
-      
+      </div> 
        </section> 
-     
-      <div id="friend-post">
-         <h1 style="font-size: 30px;">Friend Post</h1>
-         <div class="friend1 friend" >
-            <div class="border">
-               <div class="image">
-                  <img src="pro.png">
-               </div>
-               <div class="friend-name">
-                  <h2>Friend Name</h2>
-               </div>
-            </div>
-            <div class="friend-post">
-               <h2>Friend Post</h2>
-               <i class="far fa-thumbs-up"></i>
-               <a href="#" class="full-post">View full post</a>
-            </div>
-         </div>
-         <div class="friend2 friend" >
-            <div class="border">
-               <div class="image">
-                  <img src="pro.png">
-               </div>
-               <div class="friend-name">
-                  <h2>Friend Name</h2>
-               </div>
-            </div>
-            <div class="friend-post">
-               <h2>Friend Post</h2>
-               <i class="far fa-thumbs-up"></i>
-               <a href="#" class="full-post">View full post</a>
-            </div>
-         </div>
-         <div class="friend3 friend" >
-            <div class="border">
-               <div class="image">
-                  <img src="pro.png">
-               </div>
-               <div class="friend-name">
-                  <h2>Friend Name</h2>
-               </div>
-            </div>
-            <div class="friend-post">
-               <h2>Friend Post</h2>
-               <i class="far fa-thumbs-up" id="fri-req"></i>
-               <a href="#" class="full-post">View full post</a>
-            </div>
-         </div>
-         <button type="submit">See All Friends</button>
-      </div>
       </section>
      
 
-</script>
-      <script src="notes2.js"></script>
+       <div class="scroll-button">
+      
+         <button onclick="topFunction()" id="myBtnscroll" title="Go to top"><i class="arrow up"></i></button>
+     </div>
+         <script src="notes2.js"></script>
 
     
    </body>
