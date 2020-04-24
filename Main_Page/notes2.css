@@ -20,12 +20,9 @@ button{
   outline: none;
 }
 .paper {
-  margin-left: 300px;
   position: relative;
   top: 4em;
-  width: 65%;
-  max-width: 600px;
-  min-width: 400px;
+  width: calc(30vw + 10rem);
   height: 520px;
   background: #fafafa;
   border-radius: 10px;
@@ -95,15 +92,13 @@ button{
 #button-create{
   cursor:pointer;
   margin-top:90px;
+  margin-left: calc(30vw + 3.2rem);
   height:40px;
   padding-left:24px;
   padding-right:24px;
   font-size:20px;
   color:#FFF;
   position: relative;
-  bottom: 10em;
-  top: 0px;
-  margin-left: 780px;
   background-color:rgb(38, 9, 56);
   border-radius: 620px;
   outline: none;
@@ -122,7 +117,7 @@ button{
   font-family: cursive;
 }
 #message {
-  margin:-50px 0 0 -110px;
+  margin:-50px 0 0 calc(-25vw);
   text-align: center;
   position: relative;
 
