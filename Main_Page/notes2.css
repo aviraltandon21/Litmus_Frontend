@@ -67,7 +67,7 @@ button{
 }
 #title {
   background-color:transparent;
-  border-bottom:3px solid #FFF;
+  border-bottom:3px solid rgb(38, 9, 56);
   border-top: none;
   border-left: none;
   border-right: none;
@@ -78,6 +78,8 @@ button{
   font-weight:bold;
   width:220px;
   border-radius: 10px;
+  outline: none;
+  padding-left:20px;
 }
 #margin {
   
@@ -142,11 +144,11 @@ button{
   margin-left: -350px;
   height: 50px;
   width: 50px;
-  
-  
- 
   cursor: pointer;
-  color:#fff;
+  
+
+
+ color:#fff;
 
   background-color:rgb(38, 9, 56);
   border-radius: 620px;
@@ -154,8 +156,8 @@ button{
   border: none;
 }
 .slide-button:hover{
-  background-color: #FFF;
-  color: rgb(38, 9, 56);
+  background-color: #fff;
+  color:rgb(38,9,56);
 }
 .slide-button1
 {
@@ -165,8 +167,8 @@ button{
   height: 50px;
   width: 50px;
   margin-left: 800px;
-
   cursor: pointer;
+  
   background-color:  rgb(38, 9, 56);
   border-radius: 50%;
   outline:none;
@@ -174,10 +176,9 @@ button{
   color: #FFF;
 }
 .slide-button1:hover{
-  background-color: #FFF;
-  color: rgb(38, 9, 56);
+  background-color: #fff;
+  color:rgb(38,9,56);
 }
-
 
 .trending-post-button
 {
