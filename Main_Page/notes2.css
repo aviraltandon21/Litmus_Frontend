@@ -11,18 +11,22 @@ body {
   color:rgb(38, 9, 56);
   font-family: "comic neue";
 }
+.main-content{
+  display:flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
 button{
   outline: none;
 }
 .paper {
+  margin-left: 300px;
   position: relative;
-  right: 40px;
   top: 4em;
-  width: 50%;
+  width: 65%;
   max-width: 600px;
   min-width: 400px;
-  height: 480px;
-  margin: 40px auto;
+  height: 520px;
   background: #fafafa;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,.3);
@@ -34,7 +38,7 @@ button{
   top: 0;
   bottom: 0;
   left: 0;
-  width: 60px;
+  width: 65px;
   background: radial-gradient(#F2AA4CFF 6px, transparent 7px) repeat-y;
   background-size: 30px 30px;
   border-right: 3px solid rgb(38, 9, 56);
@@ -65,7 +69,7 @@ button{
 }
 #title {
   background-color:transparent;
-  border-bottom:3px solid #FFF;
+  border-bottom:3px solid rgb(38, 9, 56);
   border-top: none;
   border-left: none;
   border-right: none;
@@ -76,20 +80,21 @@ button{
   font-weight:bold;
   width:220px;
   border-radius: 10px;
+  outline: none;
+  padding-left:20px;
 }
 #margin {
-  
-  display: inline;
+    display: inline;
   position: absolute;
   padding-top: 10px;
-  margin-left: 420px;
+  margin-left: 380px;
   
 
   color:rgb(38, 9, 56);
 }
 #button-create{
   cursor:pointer;
-  margin-top:50px;
+  margin-top:90px;
   height:40px;
   padding-left:24px;
   padding-right:24px;
@@ -98,7 +103,7 @@ button{
   position: relative;
   bottom: 10em;
   top: 0px;
-  margin-left: 830px;
+  margin-left: 780px;
   background-color:rgb(38, 9, 56);
   border-radius: 620px;
   outline: none;
@@ -117,42 +122,18 @@ button{
   font-family: cursive;
 }
 #message {
-  right: 250px;
-  bottom: 30px;
+  margin:-50px 0 0 -110px;
   text-align: center;
   position: relative;
 
 }
 /* Trending Post */
-/* #useful-notes
-{
-  cursor:pointer;
-  display: inline;
-  margin-top: 100px;
-  height:40px;
-  padding-left:24px;
-  padding-right:24px;
-  font-size:20px;
-  color:#FFF;
-  position: absolute;
-  bottom: 10em;
-  top: 0px;
-  margin-left: 20px;
-  background-color:rgb(38, 9, 56);
-  border-radius: 620px;
-  outline: none;
-  border: none;
-  
-}
-#useful-notes:hover{
-color:rgb(38, 9, 56);
-background-color: white;
-} */
+
 
 .trending-post-container
 {
   height: 400px;
-  width: 1000px;
+  width: 800px;
   margin-left: 420px;
 
 }
@@ -163,9 +144,20 @@ background-color: white;
   margin-left: -350px;
   height: 50px;
   width: 50px;
+  cursor: pointer;
   
-  background-color:  rgb(38, 9, 56);
-  color: #FFF;
+
+
+ color:#fff;
+
+  background-color:rgb(38, 9, 56);
+  border-radius: 620px;
+  outline: none;
+  border: none;
+}
+.slide-button:hover{
+  background-color: #fff;
+  color:rgb(38,9,56);
 }
 .slide-button1
 {
@@ -175,12 +167,18 @@ background-color: white;
   height: 50px;
   width: 50px;
   margin-left: 800px;
-
+  cursor: pointer;
   
   background-color:  rgb(38, 9, 56);
+  border-radius: 50%;
+  outline:none;
+  border: none;
   color: #FFF;
 }
-
+.slide-button1:hover{
+  background-color: #fff;
+  color:rgb(38,9,56);
+}
 
 .trending-post-button
 {
@@ -325,13 +323,10 @@ background-color: white;
   font-family: "comic Neue";
    text-align: center;
 }
-/* friend-request */
-#friend-post{
-	right: 100px;      /*added*/
-  position: absolute;   /*changed to relative*/
-  margin: -1260px 0px 0px 1000px;
-  overflow: hidden;
-}
+/* friend-post */
+ #friend-post{
+  margin-top: 25px;
+} 
 .friend{
   color:whitesmoke;
   background-color: rgb(38, 9, 56);
@@ -372,6 +367,7 @@ background-color: white;
   background-color: white;
   border: none;
   margin-left: 100px;
+  margin-top: 10px;
 }
 #friend-post button:hover{
   background-color: rgba(66, 32, 87, 0.678);
