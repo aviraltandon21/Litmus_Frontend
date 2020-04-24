@@ -144,7 +144,7 @@ button{
   margin-left: -350px;
   height: 50px;
   width: 50px;
-  
+  cursor: pointer;
   
 
 
@@ -155,6 +155,10 @@ button{
   outline: none;
   border: none;
 }
+.slide-button:hover{
+  background-color: #fff;
+  color:rgb(38,9,56);
+}
 .slide-button1
 {
   position: absolute;
@@ -163,7 +167,7 @@ button{
   height: 50px;
   width: 50px;
   margin-left: 800px;
-
+  cursor: pointer;
   
   background-color:  rgb(38, 9, 56);
   border-radius: 50%;
@@ -171,7 +175,10 @@ button{
   border: none;
   color: #FFF;
 }
-
+.slide-button1:hover{
+  background-color: #fff;
+  color:rgb(38,9,56);
+}
 
 .trending-post-button
 {
