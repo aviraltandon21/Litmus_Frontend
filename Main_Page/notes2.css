@@ -126,35 +126,12 @@ button{
 
 }
 /* Trending Post */
-/* #useful-notes
-{
-  cursor:pointer;
-  display: inline;
-  margin-top: 100px;
-  height:40px;
-  padding-left:24px;
-  padding-right:24px;
-  font-size:20px;
-  color:#FFF;
-  position: absolute;
-  bottom: 10em;
-  top: 0px;
-  margin-left: 20px;
-  background-color:rgb(38, 9, 56);
-  border-radius: 620px;
-  outline: none;
-  border: none;
-  
-}
-#useful-notes:hover{
-color:rgb(38, 9, 56);
-background-color: white;
-} */
+
 
 .trending-post-container
 {
   height: 400px;
-  width: 1000px;
+  width: 800px;
   margin-left: 420px;
 
 }
@@ -166,8 +143,15 @@ background-color: white;
   height: 50px;
   width: 50px;
   
-  background-color:  rgb(38, 9, 56);
-  color: #FFF;
+  
+
+
+ color:#fff;
+
+  background-color:rgb(38, 9, 56);
+  border-radius: 620px;
+  outline: none;
+  border: none;
 }
 .slide-button1
 {
@@ -180,6 +164,9 @@ background-color: white;
 
   
   background-color:  rgb(38, 9, 56);
+  border-radius: 50%;
+  outline:none;
+  border: none;
   color: #FFF;
 }
 
@@ -329,8 +316,8 @@ background-color: white;
 }
 /* friend-request */
 #friend-post{
-	right: 100px;      /*added*/
-  position: absolute;   /*changed to relative*/
+	right: 10px;      /*added*/
+  position: relative;   /*changed to relative*/
   margin: -1260px 0px 0px 1000px;
   overflow: hidden;
 }
