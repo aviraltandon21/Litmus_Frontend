@@ -113,8 +113,9 @@ var selected_font_size = document.getElementById("font-size-input");
 
  
 var fontStyle_textArea2 = document.getElementById("textin");
-function selectedFont()
+function selectedFontSize()
 {
+ 
   var font_input_size = selected_font_size.value;
   fontStyle_textArea2.style.fontSize = font_input_size;
 
