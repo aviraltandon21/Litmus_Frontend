@@ -77,48 +77,74 @@ var mybutton = document.getElementById("myBtnscroll");
  }
 
  const font_selection_region = document.getElementById("font-family-tool");
-
+ const font_size_selection_region = document.getElementById("font-size-tool");
  function displayTools()
  {
    if(window.getComputedStyle(font_selection_region).display === "none") {
-  font_selection_region.style.display="block";
+     font_selection_region.style.display="block";
+     font_size_selection_region.style.display="none";
      }else{
-  font_selection_region.style.display="none";
+    font_selection_region.style.display="none";
    }
 
  }
- const font_size_selection_region = document.getElementById("font-size-tool");
 
  function displayTools2()
  {
    if(window.getComputedStyle(font_size_selection_region).display === "none") {
   font_size_selection_region.style.display="block";
+  font_selection_region.style.display="none";
      }else{
   font_size_selection_region.style.display="none";
    }
 
  }
-
- var selected_font = document.getElementById("font-family-input");
-
- 
-var fontStyle_textArea = document.getElementById("textin");
-function selectedFont()
+function selectedFontSizeremove()
 {
-  var font_input = selected_font.value;
-  fontStyle_textArea.style.fontFamily = font_input;
-
+  selectedFontSize();
+  font_size_selection_region.style.display="none";
 }
 
+// for font family
+ var selected_font = document.getElementById("font-family-input");
+ var fontStyle_textArea = document.getElementById("textin");
+
+function inputfamily(family)
+{
+  selected_font.value= family;
+  selectedFont();
+}
+function selectedFont()
+{
+  if(selected_font.value==="")
+  {
+    selected_font.value='Monospace';
+  }
+  var font_input = selected_font.value;
+  fontStyle_textArea.style.fontFamily = font_input;
+  selected_font.style.fontFamily=font_input;
+}
+function selectedFontremove(){
+  selectedFont();
+  font_selection_region.style.display="none";
+}
+
+// for font size
 function selectedFontSize()
 {
   var selected_font_size = document.getElementById("font-size-input");
   var fontStyle_textArea2 = document.getElementById("textin");
+  if(selected_font_size.value==='')
+  {
+    selected_font_size.value=23;
+  }
   var font_input_size = selected_font_size.value;
   font_input_size = font_input_size +'px';
    fontStyle_textArea2.style.fontSize = font_input_size;
 }
 
-
-
-
+function inputfont(x){
+  var selected_font_size = document.getElementById("font-size-input");
+  selected_font_size.value = x;
+  selectedFontSize();
+}
