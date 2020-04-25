@@ -61,7 +61,6 @@ button{
   outline: 0;
   background: transparent;
   font-family: monospace;
-  font-size: 23px;
   box-sizing: border-box;
 }
 #title {
@@ -132,10 +131,11 @@ button{
   font-family: "comic neue";
   outline: none;
   border: none;
-
+  padding-left: 20px;
 }
 #font-size-input
 {
+  padding-left: 20px;
   height: 40px;
   width: 200px;
   border-radius: 10px;
@@ -143,7 +143,7 @@ button{
   font-family: "comic neue";
   outline: none;
   border: none;
-
+ 
 }
  .tools
 {
@@ -177,14 +177,15 @@ button{
 {
   height: 30px;
   width: 80px;
-  margin-left: 60px;
+  margin-left: 55px;
   background-color:#fff;
   color: rgb(38, 9, 56);
   outline: none;
   border: none;
   cursor: pointer;
   font-family: "comic neue";
-  font-size: 20px;
+  font-size: 15px;
+  font-family: "comic neue";
   border-radius: 10px;
   
 
@@ -193,14 +194,15 @@ button{
 {
   height:30px;
   width: 80px;
-  margin-left: 60px;
+  margin-left: 55px;
   background-color:#fff;
   color: rgb(38, 9, 56);
   outline: none;
   border: none;
   cursor: pointer;
   font-family: "comic neue";
-  font-size: 20px;
+  font-size: 15px;
+  font-family: "comic neue";
   border-radius: 10px;
   
 

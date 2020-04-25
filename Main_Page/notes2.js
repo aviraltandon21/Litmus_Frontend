@@ -109,16 +109,14 @@ function selectedFont()
   fontStyle_textArea.style.fontFamily = font_input;
 
 }
-var selected_font_size = document.getElementById("font-size-input");
 
- 
-var fontStyle_textArea2 = document.getElementById("textin");
 function selectedFontSize()
 {
- 
+  var selected_font_size = document.getElementById("font-size-input");
+  var fontStyle_textArea2 = document.getElementById("textin");
   var font_input_size = selected_font_size.value;
-  fontStyle_textArea2.style.fontSize = font_input_size;
-
+  font_input_size = font_input_size +'px';
+   fontStyle_textArea2.style.fontSize = font_input_size;
 }
 
 
