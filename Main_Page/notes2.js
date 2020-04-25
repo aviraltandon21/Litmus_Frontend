@@ -23,6 +23,8 @@ var limiter = {
       document.getElementById("textin")
     );
   }; 
+
+
   const friend_request = document.getElementById("req-btn");
 const friend_request_area = document.getElementById("friend-req-area");
 friend_request.onclick = function(){
@@ -73,3 +75,30 @@ var mybutton = document.getElementById("myBtnscroll");
    document.documentElement.scrollTop = 0; // this is for windows user
 
  }
+
+ const font_selection_region = document.getElementById("font-family-tool");
+
+ function displayTools()
+ {
+   if(window.getComputedStyle(font_selection_region).display === "none") {
+  font_selection_region.style.display="block";
+     }else{
+  font_selection_region.style.display="none";
+   }
+
+ }
+
+ var selected_font = document.getElementById("font-family-input");
+
+ 
+var fontStyle_textArea = document.getElementById("textin");
+function selectedFont()
+{
+  var font_input = selected_font.value;
+  fontStyle_textArea.style.fontFamily = font_input;
+
+}
+
+
+
+

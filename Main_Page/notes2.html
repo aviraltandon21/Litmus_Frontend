@@ -62,7 +62,20 @@
       <div id="post-box">
          <form novalidate onsubmit="return limiter.save();"></form>
 
-         <div id="margin"><span style="font-weight: bold; font-size: 25px;">Title:&emsp;</span> <input id="title" type="text" name="title" spellcheck="false"></div>
+         <div id="margin"><span style="font-weight: bold; font-size: 25px;">Title:&emsp;</span> <input id="title" type="text" name="title" spellcheck="false">
+         <button class="tools" onclick="displayTools()"><i class="fas fa-pen-alt fa-2x"></i></button>
+         </div>
+         <div id="font-family-tool">
+            <input id="font-family-input" placeholder="Type font" type="text" spellcheck="false">
+           <h1 style="font-family:cursive;text-align: center;color: #fff;line-height: 2rem;">Cursive</h1>
+           <h1 style="font-family: fantasy;text-align: center;color: #fff;line-height: 2rem;"> Fantasy</h1>
+           <h1 style ="font-family: sans-serif;text-align: center;color: #fff;line-height: 2rem;">San-serif</h1>
+           <h1 style="font-family: arial;text-align: center;color: #fff;line-height: 2rem;">Arial</h1>
+           <h1 style="font-family: monospace;text-align: center;color: #fff;line-height: 2rem;">Monospace</h1>
+            <button id="selected-font"onclick="selectedFont()">Select</button>
+
+
+         </div>
          <div class="paper">
             <div class="paper-content">
                <textarea id="textin" placeholder="Pour in your thoughts !"autofocus spellcheck="false"></textarea>
