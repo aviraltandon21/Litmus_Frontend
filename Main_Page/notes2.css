@@ -127,7 +127,8 @@ button{
   height: 40px;
   width: 200px;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 15px;
+  font-family: "comic neue";
   outline: none;
   border: none;
   padding-left: 20px;
@@ -138,14 +139,15 @@ button{
   height: 40px;
   width: 200px;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 15px;
+  font-family: "comic neue";
   outline: none;
   border: none;
  
 }
  .tools
 {
-  margin-left: 170px;
+  margin-left: 145px;
   height: 50px;
   width: 50px;
   cursor: pointer;
@@ -173,8 +175,8 @@ button{
 
 #selected-font
 {
-  height: 50px;
-  width: 100px;
+  height: 30px;
+  width: 80px;
   margin-left: 55px;
   background-color:#fff;
   color: rgb(38, 9, 56);
@@ -182,15 +184,16 @@ button{
   border: none;
   cursor: pointer;
   font-family: "comic neue";
-  font-size: 20px;
+  font-size: 15px;
+  font-family: "comic neue";
   border-radius: 10px;
   
 
 }
 #selected-font-size
 {
-  height:50px;
-  width: 100px;
+  height:30px;
+  width: 80px;
   margin-left: 55px;
   background-color:#fff;
   color: rgb(38, 9, 56);
@@ -198,7 +201,8 @@ button{
   border: none;
   cursor: pointer;
   font-family: "comic neue";
-  font-size: 20px;
+  font-size: 15px;
+  font-family: "comic neue";
   border-radius: 10px;
   
 
