@@ -63,6 +63,17 @@ button{
   font-family: monospace;
   box-sizing: border-box;
 }
+.font-option,.font-family-option{
+  font-family:cursive;
+  text-align: center;
+  color: #fff;
+  line-height: 2rem;
+}
+.font-option:hover,.font-family-option:hover{
+background-color: white;
+color: rgb(38, 9, 56);
+cursor:pointer;
+}
 #title {
   background-color:transparent;
   border-bottom:3px solid rgb(38, 9, 56);
@@ -128,7 +139,7 @@ button{
   width: 200px;
   border-radius: 10px;
   font-size: 15px;
-  font-family: "comic neue";
+  font-family: "monospace";
   outline: none;
   border: none;
   padding-left: 20px;

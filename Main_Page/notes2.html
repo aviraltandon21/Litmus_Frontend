@@ -68,24 +68,24 @@
        
          </div>
          <div id="font-family-tool">
-            <input id="font-family-input" placeholder="Type font" type="text" spellcheck="false">
-           <h1 style="font-family:cursive;text-align: center;color: #fff;line-height: 2rem;">Cursive</h1>
-           <h1 style="font-family: fantasy;text-align: center;color: #fff;line-height: 2rem;"> Fantasy</h1>
-           <h1 style ="font-family: sans-serif;text-align: center;color: #fff;line-height: 2rem;">San-serif</h1>
-           <h1 style="font-family: arial;text-align: center;color: #fff;line-height: 2rem;">Arial</h1>
-           <h1 style="font-family: monospace;text-align: center;color: #fff;line-height: 2rem;">Monospace</h1>
-            <button id="selected-font"onclick="selectedFont()">Select</button>
+           <input id="font-family-input" onchange="selectedFont()" value="Monospace" type="text" spellcheck="false">
+           <h1 class="font-family-option" style="font-family:cursive;" onclick="inputfamily('cursive')">Cursive</h1>
+           <h1 class="font-family-option" style="font-family: fantasy;"onclick="inputfamily('fantasy')"> Fantasy</h1>
+           <h1 class="font-family-option" style ="font-family: sans-serif;"onclick="inputfamily('sans-serif')">San-serif</h1>
+           <h1 class="font-family-option" style="font-family: arial;"onclick="inputfamily('arial')">Arial</h1>
+           <h1 class="font-family-option" style="font-family: monospace;"onclick="inputfamily('Monospace')">Monospace</h1>
+           <button id="selected-font"onclick="selectedFontremove()">Select</button>
 
 
          </div>
          <div id="font-size-tool">
-            <input id="font-size-input" placeholder="Type font Size" type="number" spellcheck="false">
-           <h1 style="font-family:cursive;text-align: center;color: #fff;line-height: 2rem;">16</h1>
-           <h1 style="font-family:cursive;text-align: center;color: #fff;line-height: 2rem;">20</h1>
-           <h1 style="font-family:cursive;text-align: center;color: #fff;line-height: 2rem;">24</h1>
-           <h1 style="font-family:cursive;text-align: center;color: #fff;line-height: 2rem;">28</h1>
-           <h1 style="font-family:cursive;text-align: center;color: #fff;line-height: 2rem;">32</h1>
-            <button id="selected-font-size"onclick="selectedFontSize()">Select</button>
+           <input id="font-size-input" value="23" type="number" onchange="selectedFontSize()" spellcheck="false">
+           <h1 class="font-option" onclick="inputfont(16)" >16</h1>
+           <h1 class="font-option" onclick="inputfont(20)">20</h1>
+           <h1 class="font-option" onclick="inputfont(24)">24</h1>
+           <h1 class="font-option" onclick="inputfont(28)">28</h1>
+           <h1 class="font-option" onclick="inputfont(32)">32</h1>
+            <button id="selected-font-size" onclick="selectedFontSizeremove()">Select</button>
 
 
          </div>
