@@ -119,7 +119,6 @@ function selectedFontSize()
   var font_input_size = selected_font_size.value;
   fontStyle_textArea2.style.fontSize = font_input_size;
 
-
 }
 
 

@@ -129,6 +129,7 @@ button{
   width: 200px;
   border-radius: 10px;
   font-size: 15px;
+  font-family: "comic neue";
   outline: none;
   border: none;
 
@@ -139,13 +140,14 @@ button{
   width: 200px;
   border-radius: 10px;
   font-size: 15px;
+  font-family: "comic neue";
   outline: none;
   border: none;
 
 }
  .tools
 {
-  margin-left: 170px;
+  margin-left: 145px;
   height: 50px;
   width: 50px;
   cursor: pointer;
@@ -173,9 +175,9 @@ button{
 
 #selected-font
 {
-  height: 50px;
-  width: 100px;
-  margin-left: 55px;
+  height: 30px;
+  width: 80px;
+  margin-left: 60px;
   background-color:#fff;
   color: rgb(38, 9, 56);
   outline: none;
@@ -189,9 +191,9 @@ button{
 }
 #selected-font-size
 {
-  height:50px;
-  width: 100px;
-  margin-left: 55px;
+  height:30px;
+  width: 80px;
+  margin-left: 60px;
   background-color:#fff;
   color: rgb(38, 9, 56);
   outline: none;
