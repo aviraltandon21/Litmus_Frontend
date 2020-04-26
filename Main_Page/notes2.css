@@ -158,7 +158,7 @@ cursor:pointer;
 }
  .tools
 {
-  margin-left: calc(15vw + -5rem);
+  margin-left: calc(21vw + -5rem);
   height: 50px;
   width: 50px;
   cursor: pointer;
