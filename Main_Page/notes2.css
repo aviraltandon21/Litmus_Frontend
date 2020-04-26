@@ -170,19 +170,6 @@ cursor:pointer;
   padding: 0;
 
 } 
- .tools2
-{
-  margin-left: 10px;
-  height: 50px;
-  width: 50px;
-  cursor: pointer;
-  color:#fff;
-  background-color:rgb(38, 9, 56);
-  border-radius: 620px;
-  outline: none;
-  border: none;
-  padding: 0;
-  }
 
 #selected-font
 {
@@ -201,23 +188,7 @@ cursor:pointer;
   
 
 }
-#selected-font-size
-{
-  height:30px;
-  width: 80px;
-  margin-left: 55px;
-  background-color:#fff;
-  color: rgb(38, 9, 56);
-  outline: none;
-  border: none;
-  cursor: pointer;
-  font-family: "comic neue";
-  font-size: 15px;
-  font-family: "comic neue";
-  border-radius: 10px;
-  
 
-}
 #font-family-tool
 {
   position: absolute;
@@ -230,18 +201,7 @@ cursor:pointer;
   z-index: 99;
   display: none;
 }
-#font-size-tool
-{
-  position: absolute;
-  margin-left: 570px;
-  margin-top: 20px;
-  height: 200px;
-  width: 200px;
-  background-color:rgb(38, 9, 56);
-  border-radius: 10px;
-  z-index: 99;
-  display: none;
-}
+
 .font
 {
   height: 40px;
@@ -251,10 +211,6 @@ cursor:pointer;
 
 
 #selected-font:hover{
-  background-color:rgb(114, 101, 122);
-  color: #fff;
-}
-#selected-font-size:hover{
   background-color:rgb(114, 101, 122);
   color: #fff;
 }
