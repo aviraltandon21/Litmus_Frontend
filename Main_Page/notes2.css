@@ -63,6 +63,17 @@ button{
   font-family: monospace;
   box-sizing: border-box;
 }
+.font-option,.font-family-option{
+  font-family:cursive;
+  text-align: center;
+  color: #fff;
+  line-height: 2rem;
+}
+.font-option:hover,.font-family-option:hover{
+background-color: white;
+color: rgb(38, 9, 56);
+cursor:pointer;
+}
 #title {
   background-color:transparent;
   border-bottom:3px solid rgb(38, 9, 56);
@@ -128,7 +139,7 @@ button{
   width: 200px;
   border-radius: 10px;
   font-size: 15px;
-  font-family: "comic neue";
+  font-family: "monospace";
   outline: none;
   border: none;
   padding-left: 20px;
@@ -147,7 +158,7 @@ button{
 }
  .tools
 {
-  margin-left: 145px;
+  margin-left: calc(21vw + -5rem);
   height: 50px;
   width: 50px;
   cursor: pointer;
@@ -159,19 +170,6 @@ button{
   padding: 0;
 
 } 
- .tools2
-{
-  margin-left: 10px;
-  height: 50px;
-  width: 50px;
-  cursor: pointer;
-  color:#fff;
-  background-color:rgb(38, 9, 56);
-  border-radius: 620px;
-  outline: none;
-  border: none;
-  padding: 0;
-  }
 
 #selected-font
 {
@@ -190,23 +188,7 @@ button{
   
 
 }
-#selected-font-size
-{
-  height:30px;
-  width: 80px;
-  margin-left: 55px;
-  background-color:#fff;
-  color: rgb(38, 9, 56);
-  outline: none;
-  border: none;
-  cursor: pointer;
-  font-family: "comic neue";
-  font-size: 15px;
-  font-family: "comic neue";
-  border-radius: 10px;
-  
 
-}
 #font-family-tool
 {
   position: absolute;
@@ -219,18 +201,7 @@ button{
   z-index: 99;
   display: none;
 }
-#font-size-tool
-{
-  position: absolute;
-  margin-left: 570px;
-  margin-top: 20px;
-  height: 200px;
-  width: 200px;
-  background-color:rgb(38, 9, 56);
-  border-radius: 10px;
-  z-index: 99;
-  display: none;
-}
+
 .font
 {
   height: 40px;
@@ -240,10 +211,6 @@ button{
 
 
 #selected-font:hover{
-  background-color:rgb(114, 101, 122);
-  color: #fff;
-}
-#selected-font-size:hover{
   background-color:rgb(114, 101, 122);
   color: #fff;
 }
@@ -331,8 +298,6 @@ button{
   box-shadow: 0 4px 8px 0 rgba(49, 29, 63, 0.979);
   max-width: 500px;
   border-radius: 30px;
-  margin-left: 100px;
-  
   height: 400px;
   font-family: arial;
   background-color: rgb(38, 9, 56);
