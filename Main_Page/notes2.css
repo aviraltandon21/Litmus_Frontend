@@ -7,8 +7,8 @@ textarea{
   resize: none;
 }
 body {
-  background:#F2AA4CFF;
-  color:rgb(38, 9, 56);
+  background:#399cdd;
+  color:rgb(235, 28, 36);
   font-family: "comic neue";
 }
 .main-content{
@@ -36,7 +36,7 @@ button{
   bottom: 0;
   left: 0;
   width: 65px;
-  background: radial-gradient(#F2AA4CFF 6px, transparent 7px) repeat-y;
+  background: radial-gradient(#399cdd 6px, transparent 7px) repeat-y;
   background-size: 30px 30px;
   border-right: 3px solid rgb(38, 9, 56);
   box-sizing: border-box;
@@ -47,7 +47,7 @@ button{
   right: 0;
   bottom: 30px;
   left: 60px;
-  background: linear-gradient(transparent, transparent 28px, #F2AA4CFF 28px);
+  background: linear-gradient(transparent, transparent 28px, #399cdd 28px);
   background-size: 30px 30px;
 }
 #textin{
@@ -71,12 +71,12 @@ button{
 }
 .font-option:hover,.font-family-option:hover{
 background-color: white;
-color: rgb(38, 9, 56);
+color: rgb(235, 28, 36);
 cursor:pointer;
 }
 #title {
   background-color:transparent;
-  border-bottom:3px solid rgb(38, 9, 56);
+  border-bottom:3px solid rgb(235, 28, 36);
   border-top: none;
   border-left: none;
   border-right: none;
@@ -97,7 +97,7 @@ cursor:pointer;
   margin-left: 0;
   
 
-  color:rgb(38, 9, 56);
+  color:rgb(235, 28, 36);
 }
 #button-create{
   cursor:pointer;
@@ -109,27 +109,27 @@ cursor:pointer;
   font-size:20px;
   color:#FFF;
   position: relative;
-  background-color:rgb(38, 9, 56);
+  background-color:rgb(235, 28, 36);
   border-radius: 620px;
   outline: none;
   border: none;
 }
 #button-create:hover {
-  color:rgb(38, 9, 56);
+  color:rgb(235, 28, 36);
   background-color: rgba(235, 222, 222, 0.911);
 }
 #public-button
 {
   cursor:pointer;
   margin-top:90px;
-  margin-left: -445px;
+  margin-left: -480px;
   height:40px;
   padding-left:24px;
   padding-right:24px;
   font-size:20px;
   color:#FFF;
   position: absolute;
-  background-color:rgb(38, 9, 56);
+  background-color:rgb(235, 28, 36);
   border-radius: 620px;
   outline: none;
   border: none;
@@ -138,26 +138,26 @@ cursor:pointer;
 #private-button
 {cursor:pointer;
   margin-top:90px;
-  margin-left:-570px;
+  margin-left:-610px;
   height:40px;
   padding-left:24px;
   padding-right:24px;
   font-size:20px;
   color:#FFF;
   position: absolute;
-  background-color:rgb(38, 9, 56);
+  background-color:rgb(235, 28, 36);
   border-radius: 620px;
   outline: none;
   border: none;
 
 }
 #public-button:hover{
-  color:rgb(38, 9, 56);
+  color:rgb(235, 28, 36);
   background-color: rgba(235, 222, 222, 0.911);
 
 }
 #private-button:hover{
-  color:rgb(38, 9, 56);
+  color:rgb(235, 28, 36);
   background-color: rgba(235, 222, 222, 0.911);
   
 }
@@ -207,7 +207,7 @@ cursor:pointer;
   width: 50px;
   cursor: pointer;
   color:#fff;
-  background-color:rgb(38, 9, 56);
+  background-color:rgb(235, 28, 36);
   border-radius: 620px;
   outline: none;
   border: none;
@@ -221,7 +221,7 @@ cursor:pointer;
   width: 80px;
   margin-left: 55px;
   background-color:#fff;
-  color: rgb(38, 9, 56);
+  color: rgb(235, 28, 36);
   outline: none;
   border: none;
   cursor: pointer;
@@ -240,7 +240,7 @@ cursor:pointer;
   margin-top: 20px;
   height: 200px;
   width: 200px;
-  background-color:rgb(38, 9, 56);
+  background-color:rgb(235, 28, 36);
   border-radius: 10px;
   z-index: 99;
   display: none;
@@ -255,8 +255,9 @@ cursor:pointer;
 
 
 #selected-font:hover{
-  background-color:rgb(114, 101, 122);
-  color: #fff;
+  background-color: rgba(235, 222, 222, 0.911);
+  color: rgb(235,28,36);
+  
 }
 
 .trending-post-container
@@ -274,31 +275,26 @@ cursor:pointer;
   height: 50px;
   width: 50px;
   cursor: pointer;
-  
-
-
  color:#fff;
-
-  background-color:rgb(38, 9, 56);
+  background-color:rgb(235, 28, 36);
   border-radius: 620px;
   outline: none;
   border: none;
 }
 .slide-button:hover{
   background-color: #fff;
-  color:rgb(38,9,56);
+  color:rgb(235,28,36);
 }
 .slide-button1
 {
   position: absolute;
   margin-top: 200px;
-
   height: 50px;
   width: 50px;
   margin-left: 800px;
   cursor: pointer;
   
-  background-color:  rgb(38, 9, 56);
+  background-color:  rgb(235, 28, 36);
   border-radius: 50%;
   outline:none;
   border: none;
@@ -306,7 +302,7 @@ cursor:pointer;
 }
 .slide-button1:hover{
   background-color: #fff;
-  color:rgb(38,9,56);
+  color:rgb(235,28,36);
 }
 
 .trending-post-button
@@ -323,7 +319,7 @@ cursor:pointer;
 .trend-head {
   text-align: center;
   font-size: 50px;
-  color:rgb(38, 9, 56);
+  color:rgb(235, 28, 36);
   font-family: "comic Neue";
   margin-top: 130px;
 }
@@ -335,7 +331,7 @@ cursor:pointer;
   margin-left: 130px;
   height: 400px;
   font-family: arial;
-  background-color: rgb(38, 9, 56);
+  background-color: rgb(235, 28, 36);
 
 }
 .card1 {
@@ -344,7 +340,7 @@ cursor:pointer;
   border-radius: 30px;
   height: 400px;
   font-family: arial;
-  background-color: rgb(38, 9, 56);
+  background-color: rgb(235, 28, 36);
 
 }
 .card2 {
@@ -354,7 +350,7 @@ cursor:pointer;
   
   height: 400px;
   font-family: arial;
-  background-color: rgb(38, 9, 56);
+  background-color: rgb(235, 28, 36);
  
   
 }
@@ -366,7 +362,7 @@ cursor:pointer;
   margin-left: 40px;
 
   
-  color: grey;
+  color: white;
   font-size: 18px;
 }
 #post-button{
@@ -378,7 +374,7 @@ cursor:pointer;
   margin-top: -6px;
   display: inline-block;
   padding: 8px;
-  color:rgb(38, 9, 56);
+  color:rgb(235, 28, 36);
   background-color:rgba(235, 222, 222, 0.993);
   /* border: 1px solid; */
   text-align: center;
@@ -403,16 +399,14 @@ cursor:pointer;
   color: black;
 }
 #post-button:hover {
-  background-color: rgb(114, 101, 122);
+  background-color: #379ddd;
   color:white;
 
 }
 .prof
-{
-  
-  
+{ 
   border: 4px solid;
-  border-color: #F2AA4CFF;
+  border-color: #379ddd;
   height: 150px;
   width: 150px;
   float: right;
@@ -429,7 +423,7 @@ cursor:pointer;
   border: 4px solid;
   border-top: none;
   border-left: none;
-  border-color: #F2AA4CFF;
+  border-color: #379ddd;
 
 }
 .profile-image {
@@ -437,7 +431,7 @@ cursor:pointer;
   float: right;
   border-radius: 50%;
   border: 4px solid;
-  border-color: #F2AA4CFF;
+  border-color: #379ddd;
   height: 70%;
   width: 70%;
   margin:20px;
@@ -458,7 +452,7 @@ cursor:pointer;
 } 
 .friend{
   color:whitesmoke;
-  background-color: rgb(38, 9, 56);
+  background-color: rgb(235, 28, 36);
   /* rgb(49, 97, 143); */
   border-radius: 15px;
   margin: 10px;
@@ -468,11 +462,11 @@ cursor:pointer;
   justify-content: space-around;
 }
 .friend-post{
-  border-top: 1.5px solid #F2AA4CFF;
+  border-top: 1.5px solid #379ddd;
   padding: 20px;
 }
 .friend-name{
-  border-left: 2px solid #F2AA4CFF;
+  border-left: 2px solid #379ddd;
   width: 280px;
   /* margin-left: 10px; */
   padding-left: 20px;
@@ -483,7 +477,7 @@ cursor:pointer;
   width: 35px;
   /* margin: 10px; */
   margin:10px;
-  border: 3px solid #F2AA4CFF;
+  border: 3px solid #379ddd;
   border-radius: 100%;
 }
 
@@ -491,7 +485,7 @@ cursor:pointer;
   padding: 10px;
   border-radius: 600px;
   font-size: 20px;
-  color: rgb(38, 9, 56);
+  color: rgb(235, 28, 36);
   cursor: pointer;
   background-color: white;
   border: none;
@@ -509,7 +503,7 @@ cursor:pointer;
   font-size: 30px;
 }
 .far:hover,.full-post:hover{
-  color: #F2AA4CFF;
+  color: #379ddd;
 }
 .full-post{
   color: white;
@@ -588,7 +582,8 @@ cursor:pointer;
 
 .acc-rej:hover{
   border-radius: 50%;
-  background:#F2AA4CFF;
+  background:#379ddd;
+  color: #eb1c24;
 }
 
 
@@ -601,7 +596,7 @@ cursor:pointer;
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #422057FF ;
+  background-color: #eb1c24 ;
   color: white;
   cursor: pointer;
   padding: 15px;
