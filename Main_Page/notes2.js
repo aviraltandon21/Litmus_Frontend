@@ -36,6 +36,18 @@ friend_request.onclick = function(){
 } 
 
 
+ const friend_request1 = document.getElementById("req-btn1");
+const friend_request_area1 = document.getElementById("friend-req-area1");
+friend_request1.onclick = function(){
+  if(window.getComputedStyle(friend_request_area1).display === "none") {
+    friend_request_area1.style.display="block";
+  }else{
+    friend_request_area1.style.display="none";
+  }
+} 
+
+
+
 var slideIndex = 1;
 showDivs(slideIndex);
 
