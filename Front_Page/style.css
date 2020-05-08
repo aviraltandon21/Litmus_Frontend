@@ -25,7 +25,7 @@ body {
 }
 
 header {
-    background: #3c9bdb;
+    background: #422057FF;
     display: flex;
     z-index: 1;
     position: sticky;
@@ -55,18 +55,18 @@ header h1{
 }
 
 .nav_links li a:hover {
-    color: #da0c14;
+    color: #ffd54f;
 }
 
 /* LOGIN */
 
 
 .major{
-    color: #eb1c24;
+    color: #F2AA4CFF;
     display: flex;
     height: 100%;
     width: 100%;
-    background-color: #3c9bdb;
+    background-color: #422057FF;
     position: relative;
     padding: 70px calc(1px + 7vw);
     align-items: center;
@@ -92,7 +92,7 @@ header h1{
     cursor: pointer;
     padding: 10px 25px;
     background-color: #fff;
-    color: #eb1c24;
+    color: #F2AA4CFF;
     font-size: 18px;
     font-weight: 700;
     border: none;
@@ -101,7 +101,7 @@ header h1{
 }
 
 #content-part-1-button:hover{
-    background-color: #eb1c24;
+    background-color: #F2AA4CFF;
     color: #fff;
 }
 
@@ -118,7 +118,7 @@ header h1{
     width: 220px;
     margin: 35px auto;
     position: relative;
-    box-shadow: 0 0 20px 9px #fcafb2;
+    box-shadow: 0 0 20px 9px #ff61241f;
     border-radius: 30px;
 }
 
@@ -142,7 +142,7 @@ button:focus{
     position: absolute;
     width: 110px;
     height: 100%;
-    background: #eb1c24;
+    background: #F2AA4CFF;
     border-radius: 30px;
     transition: 0.5s;
 
@@ -182,8 +182,7 @@ button:focus{
     cursor: pointer;
     display: block;
     margin: auto;
-    color: white;
-    background: #eb1c24;
+    background: #F2AA4CFF;
     border: 0;
     outline: none;
     border-radius: 30px;
@@ -191,7 +190,7 @@ button:focus{
 .submit-btn:hover
 {
     color: white;
-    background-color:#3c9bdb;
+    background-color:#422057FF;
 }
 
 
@@ -214,13 +213,13 @@ button:focus{
 
 .container-2 {
     margin-top: 10px;
-    background-color: #eb1c24;
+    background-color: #F2AA4CFF;
     height: 620px;
     font-size: 17px;
 }
 
 .heading {
-    color: #399cdd;
+    color: #422057FF;
     font-size:50px;
     margin-left: 520px;
 }
@@ -235,13 +234,13 @@ button:focus{
     padding-right: 30px;
     cursor: pointer;
     margin-left: 620px;
-    color: #399cdd;
+    color: #422057FF;
     transition: 0.3s ease-in-out;
 }
 .fbutton:hover
 {
     color:#fff;
-    background-color: #399cdd;
+    background-color: #422057FF;
 }
 .flex {
     display: flex;
@@ -260,7 +259,7 @@ button:focus{
 /* css for scroll button */
 .box-1,.box-2,.box-3{
     background: white;
-    color: #399cdd;
+    color: #422057FF;
     width: 300px;
     height: 510px;
     line-height: 30px;
@@ -277,7 +276,7 @@ button:focus{
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: #265e83;
+    background-color: #422057FF ;
     color: white;
     cursor: pointer;
     padding: 15px;
