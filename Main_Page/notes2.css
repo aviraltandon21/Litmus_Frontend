@@ -624,6 +624,7 @@ cursor:pointer;
 .accept{
   background: 0;
   border: 0;
+
 }
 
 .reject{
@@ -653,8 +654,6 @@ cursor:pointer;
   padding: 15px;
   border-radius: 4px;
 }
-
-
 #myBtnscroll:hover {
   background-color:rgba(66, 32, 87, 0.678);
 
@@ -666,9 +665,25 @@ cursor:pointer;
   padding: 3px;
 }
 /*  arrow */
-
-
 .up {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
+}
+.logout_btn {
+  border: none; 
+  color: white; 
+  height:40px;
+  padding-left:24px;
+  padding-right:24px;
+  font-size:20px; 
+  cursor: pointer; 
+  background-color:rgb(38, 9, 56);
+  border-radius: 620px;
+  margin-top: 10px;
+  margin-left: 10px;
+  outline: none;
+}
+.logout_btn:hover {
+  color:rgb(38, 9, 56);
+  background-color: rgba(235, 222, 222, 0.911);
 }
