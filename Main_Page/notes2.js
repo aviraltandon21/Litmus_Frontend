@@ -109,7 +109,9 @@ function selectedFont()
   fontStyle_textArea.style.fontFamily = font_input;
   selected_font.style.fontFamily=font_input;
 }
-function selectedFontremove(){
+function selectedFontremove(event){
+  event.preventDefault();
+  
   selectedFont();
   font_selection_region.style.display="none";
 }
@@ -119,4 +121,22 @@ $(".search-btn").click(function(){
   $(".search").toggleClass("active").focus;
  
   $(".search").val("");
+});
+// const public=(event)=>
+// {
+//   event.preventDefault();
+// }
+// const create=(event)=>
+// {
+//   event.preventDefault();
+
+// }
+document.getElementById("button-create").addEventListener("click", function(event){
+  event.preventDefault()
+});
+document.getElementById("public-button").addEventListener("click", function(event){
+  event.preventDefault()
+});
+document.getElementById("selected-font").addEventListener("click", function(event){
+  event.preventDefault()
 });
