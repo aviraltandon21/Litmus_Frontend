@@ -101,8 +101,7 @@ cursor:pointer;
 }
 #button-create{
   cursor:pointer;
-  margin-top:90px;
-  margin-left: calc(30vw + 3.2rem);
+  /* margin-left: 50px; */
   height:40px;
   padding-left:24px;
   padding-right:24px;
@@ -118,63 +117,28 @@ cursor:pointer;
   color:rgb(38, 9, 56);
   background-color: rgba(235, 222, 222, 0.911);
 }
-#public-button
-{
-  cursor:pointer;
-  margin-top:90px;
-  margin-left: -480px;
-  height:40px;
-  padding-left:24px;
-  padding-right:24px;
-  font-size:20px;
-  color:#FFF;
-  position: absolute;
-  background-color:rgb(38, 9, 56);
-  border-radius: 620px;
-  outline: none;
-  border: none;
 
-}
-#private-button
-{cursor:pointer;
-  margin-top:90px;
-  margin-left:-610px;
-  height:40px;
-  padding-left:24px;
-  padding-right:24px;
-  font-size:20px;
-  color:#FFF;
-  position: absolute;
-  background-color:rgb(38, 9, 56);
-  border-radius: 620px;
-  outline: none;
-  border: none;
-
-}
-#public-button:hover{
-  color:rgb(38, 9, 56);
-  background-color: rgba(235, 222, 222, 0.911);
-
-}
-#private-button:hover{
-  color:rgb(38, 9, 56);
-  background-color: rgba(235, 222, 222, 0.911);
-  
-}
 #remain {
   font-size: 20px;
   font-family: sans-serif;
-  margin-left: 450px;
 }
+
 #complete{
   font-size: 16px;
   font-family: cursive;
 }
+.check-box{
+  font-size:18px;
+  font-weight: 70;
+}
 #message {
-  margin:-50px 0 0 calc(-25vw);
+  width: 630px;
+  margin-left: -25px;
+  margin-top:90px;
+  display: flex;
   text-align: center;
   position: relative;
-
+  justify-content: space-around;
 }
 /* Trending Post */
 #font-family-input
