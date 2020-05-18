@@ -92,7 +92,7 @@ body {
   width: 110px;
   border-radius: 100%;
   position: relative;
-  margin-left: 130px;
+  margin-left: calc(11vw);
   margin-top: 40px;
 
 }
