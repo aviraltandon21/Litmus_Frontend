@@ -129,12 +129,12 @@ cursor:pointer;
 }
 
 
-.check-box {
+.form-group {
   display: block;
   margin-bottom: 15px;
 }
 
-.check-box input {
+.form-group input {
   padding: 0;
   height: initial;
   width: initial;
@@ -143,12 +143,12 @@ cursor:pointer;
   cursor: pointer;
 }
 
-.check-box label {
+.form-group label {
   position: relative;
   cursor: pointer;
 }
 
-.check-box label:before {
+.form-group label:before {
   content:'';
   background-color: transparent;
   border: 2px solid rgb(38,9,56);
@@ -161,7 +161,7 @@ cursor:pointer;
   margin-right: 5px;
 }
 
-.check-box input:checked + label:after {
+.form-group input:checked + label:after {
   content: '';
   display: block;
   position: absolute;
@@ -681,54 +681,44 @@ cursor:pointer;
 
 /*Search Box*/
     
-   .wrapper {
+   .search-box {
   position: absolute;
-  top: 6.5%;
-  left: 83%;
-  transform: translate(-50%, -50%);
+  top: 4%;
+  left: 82%;
+  width: 400px;
+  transform: translate(-50%,-50%);
 }
-
-.search-box {
-  width: 450px;
-  height: 100px;
+.friends {
   position: relative;
-}
-
-.search {
-  position: absolute;
-  top: 10px;
-  right: 50px;
-  box-sizing: border-box;
-  width: 0px;
-  height: 50px;
-  padding: 0 20px;
-  outline: none;
-  font-size: 18px;
-  border-radius: 50px;
-  color: rgb(50,23,77);
-  border: 3px solid rgb(50,23,77);
-  transition: all 0.8s ease;
-}
-.search-btn {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  background: rgb(50,23,77);
-  border-radius: 50%;
-  right: 45px;
-  top: 10px;
-  cursor: pointer;
-  text-align: center;
-  line-height: 50px;
+  display: inline-block;
   font-size: 20px;
+  box-sizing: border-box;
+  transition: .5s;
+}
+.search-text {
+  background: #fff;
+  width: 270px;
+  height: 35px;
+  border: 2px solid rgb(50,23,77);
+  outline: none;
+  padding: 0 25px;
+  border-radius: 25px 0 0 25px;
+}
+.send-req {
+  position: relative;
+  border-radius: 0 25px 25px 0;
+  height: 35px;
+  left: -5px;
+  width: 120px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: rgb(50,23,77);
   color: #fff;
-  transition: all 0.8s ease;
 }
-
-.search.active {
-  width: 280px;
-  right: 100px;
+.send-req:hover {
+  background-color: rgba(235, 222, 222, 0.911);
+  color: rgb(38,9,56);
 }
-
 
 
