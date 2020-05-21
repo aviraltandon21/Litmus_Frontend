@@ -721,4 +721,29 @@ cursor:pointer;
   color: rgb(38,9,56);
 }
 
+/* Saved posts button */
+
+.savedposts_btn {
+  border: none; 
+  color: white; 
+  height:40px;
+  width: 220px;
+  position: absolute;
+  top: 181%;
+  left: 3%;
+  font-size:20px; 
+  cursor: pointer; 
+  background-color:rgb(38, 9, 56);
+  border-radius: 620px;
+  
+  outline: none;
+}
+.savedposts_btn:hover {
+  color:rgb(38, 9, 56);
+  background-color: rgba(235, 222, 222, 0.911);
+}
+}
+
+
+
 
